@@ -6,11 +6,11 @@
 
         <!-- Menu -->
         <ul class="hidden md:flex space-x-8 text-white font-medium">
-            <li><a href="#" class="text-base hover:text-orange-400">Home</a></li>
-            <li><a href="#" class="text-base hover:text-orange-400">Services</a></li>
+            <li><a href="/" class="text-base hover:text-orange-400">Home</a></li>
+            <li><a href="/services" class="text-base hover:text-orange-400">Services</a></li>
             <!-- <li><a href="#" class="hover:text-orange-400">Projects</a></li> -->
             <li><a href="/about" class="text-base hover:text-orange-400">About</a></li>
-            <li><a href="#" class="text-base hover:text-orange-400">Contact</a></li>
+            <li><a href="/contact-us" class="text-base hover:text-orange-400">Contact</a></li>
         </ul>
 
         <!-- Contact + CTA -->

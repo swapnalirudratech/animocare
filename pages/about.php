@@ -80,7 +80,7 @@ include 'includes/nav.php';
     </div>
   </section>
 
-  <section class="py-20 bg-gray-50 relative">
+  <section class="py-28 bg-gray-50 relative w-full h-auto">
     <div class="absolute bottom-0 left-0 z-20 w-full h-full">
       <img src="/assets/images/bgimg.png" alt="" class="h-full w-auto opacity-20">
     </div>
@@ -177,7 +177,7 @@ include 'includes/nav.php';
       <div class="flex flex-col md:flex-row items-center mb-24 relative">
         <!-- Left Image -->
         <div class="md:w-1/2 px-6 md:pr-12">
-          <img src="/assets/images/story-beginning.jpg" alt="Beginning" class="rounded-xl shadow-md w-full object-cover h-64">
+          <img src="/assets/images/story1.jpg" alt="Beginning" class="rounded-xl shadow-md w-full object-cover h-64">
         </div>
 
         <!-- Dot -->
@@ -192,7 +192,7 @@ include 'includes/nav.php';
             <p class="text-gray-600 mb-2">
               Animocare was founded with a vision to revolutionize the import-export industry. What started as a small operation has now grown into a global network.
             </p>
-            <a href="#" class="text-sm text-orange-500 font-semibold hover:underline transition">Read More →</a>
+            <!-- <a href="#" class="text-sm text-orange-500 font-semibold hover:underline transition">Read More →</a> -->
           </div>
         </div>
       </div>
@@ -201,7 +201,7 @@ include 'includes/nav.php';
       <div class="flex flex-col md:flex-row-reverse items-center mb-24 relative">
         <!-- Right Image -->
         <div class="md:w-1/2 px-6 md:pl-12">
-          <img src="/assets/images/story-growth.jpg" alt="Growth" class="rounded-xl shadow-md w-full object-cover h-64">
+          <img src="/assets/images/story2.jpg" alt="Growth" class="rounded-xl shadow-md w-full object-cover h-64">
         </div>
 
         <!-- Dot -->
@@ -216,7 +216,7 @@ include 'includes/nav.php';
             <p class="text-gray-600 mb-2">
               Through strategic partnerships and an unwavering focus on quality, we expanded into new markets — connecting producers and buyers across continents.
             </p>
-            <a href="#" class="text-sm text-orange-500 font-semibold hover:underline transition">Read More →</a>
+            <!-- <a href="#" class="text-sm text-orange-500 font-semibold hover:underline transition">Read More →</a> -->
           </div>
         </div>
       </div>
@@ -225,7 +225,7 @@ include 'includes/nav.php';
       <div class="flex flex-col md:flex-row items-center mb-24 relative">
         <!-- Left Image -->
         <div class="md:w-1/2 px-6 md:pr-12">
-          <img src="/assets/images/story-today.jpg" alt="Today" class="rounded-xl shadow-md w-full object-cover h-64">
+          <img src="/assets/images/story3.jpg" alt="Today" class="rounded-xl shadow-md w-full object-cover h-64">
         </div>
 
         <!-- Dot -->
@@ -240,7 +240,7 @@ include 'includes/nav.php';
             <p class="text-gray-600 mb-2">
               Today, Animocare stands as a trusted name in international trade — known for ethical sourcing, transparent logistics, and a commitment to excellence.
             </p>
-            <a href="#" class="text-sm text-orange-500 font-semibold hover:underline transition">Read More →</a>
+            <!-- <a href="#" class="text-sm text-orange-500 font-semibold hover:underline transition">Read More →</a> -->
           </div>
         </div>
       </div>

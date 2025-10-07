@@ -17,6 +17,16 @@ $routes = [
         "method" => ["GET", "POST"],
         "page" => "pages/about.php",
     ],
+    [
+        "route" => "/services",
+        "method" => ["GET", "POST"],
+        "page" => "pages/services.php",
+    ],
+    [
+        "route" => "/contact-us",
+        "method" => ["GET", "POST"],
+        "page" => "pages/contact.php",
+    ],
 ];
 
 
