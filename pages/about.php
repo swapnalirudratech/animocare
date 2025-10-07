@@ -159,7 +159,7 @@ include 'includes/nav.php';
     </div>
   </section>
 
-  <section class="py-20 bg-white">
+  <section class="pt-16 bg-white">
     <div class="text-center max-w-3xl mx-auto mb-16">
       <p class="text-sm font-semibold text-orange-500 flex items-center justify-center gap-2 mb-2">
         <span class="text-orange-500">✦</span> OUR STORY

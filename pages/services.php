@@ -8,21 +8,19 @@ include 'includes/nav.php';
     <section class="relative h-screen flex items-center justify-start bg-cover bg-center" style="background-image: url('/assets/images/6.jpg');">
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+
         <div class="relative z-10 max-w-3xl px-6 lg:px-20">
             <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight">
-                <div class="mb-3">About Animocare</div>
-                <div class="mb-3 text-orange-400">Connecting Markets, Empowering Trade</div>
-
+                <div class="mb-3">Our Services</div>
+                <div class="mb-3 text-orange-400">Simplifying Global Trade</div>
             </h1>
+
             <p class="mt-6 text-base text-gray-200">
-                Animocare is a global import-export company dedicated to delivering quality food products, edible oils,
-                fertilizers, and more across continents. With a strong supply chain network and industry expertise, we ensure excellence in every shipment.
+                End-to-end import and export solutions built on trust, quality, and global reach.
             </p>
-            <!-- <div class="mt-8">
-                <a href="#" class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">Learn More →</a>
-            </div> -->
         </div>
     </section>
+
     <section class="w-full mx-auto px-6 py-20">
         <!-- Header -->
         <div class="text-center mb-12">
@@ -43,85 +41,97 @@ include 'includes/nav.php';
             <!-- Card 1 -->
             <div class="bg-white h-full rounded-2xl shadow-sm p-6 hover:shadow-lg transition flex flex-col justify-between">
                 <div>
-                    <div class="flex items-center justify-between mb-2">
-                        <h3 class="text-xl font-bold">Global Sourcing</h3>
-                        <i class="fa-solid fa-globe text-orange-500 text-xl"></i>
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 class="text-2xl font-semibold">Global Sourcing</h3>
+                        <div class="bg-yellow-400 p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
+                            <i class="fa-solid fa-globe text-2xl"></i>
+                        </div>
                     </div>
                     <p class="text-gray-600 mb-4">
                         We identify and source premium-quality agricultural and industrial products from trusted global suppliers.
                     </p>
                 </div>
-                <img src="/assets/images/6.jpg" alt="Global Sourcing" class="rounded-xl h-56 w-full object-cover mt-auto" />
+                <img src="/assets/images/banner1.jpg" alt="Global Sourcing" class="rounded-xl h-56 w-full object-cover mt-auto" />
             </div>
 
             <!-- Card 2 -->
             <div class="bg-white h-full rounded-2xl shadow-sm p-6 hover:shadow-lg transition flex flex-col justify-between">
                 <div>
-                    <div class="flex items-center justify-between mb-2">
-                        <h3 class="text-xl font-bold">International Shipping & Logistics</h3>
-                        <i class="fa-solid fa-ship text-orange-500 text-xl"></i>
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 class="text-2xl font-semibold">International Shipping & Logistics</h3>
+                        <div class="bg-yellow-400 p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
+                            <i class="fa-solid fa-ship text-2xl"></i>
+                        </div>
                     </div>
                     <p class="text-gray-600 mb-4">
                         Reliable, fast, and cost-effective shipping solutions across sea, air, and land—ensuring timely deliveries worldwide.
                     </p>
                 </div>
-                <img src="/" alt="International Shipping" class="rounded-xl h-56 w-full object-cover mt-auto" />
+                <img src="/assets/images/s2.jpg" alt="International Shipping" class="rounded-xl h-56 w-full object-cover mt-auto" />
             </div>
 
             <!-- Card 3 -->
             <div class="bg-white h-full rounded-2xl shadow-sm p-6 hover:shadow-lg transition flex flex-col justify-between">
                 <div>
-                    <div class="flex items-center justify-between mb-2">
-                        <h3 class="text-xl font-bold">Warehousing & Distribution</h3>
-                        <i class="fa-solid fa-warehouse text-orange-500 text-xl"></i>
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 class="text-2xl font-semibold">Warehousing & Distribution</h3>
+                        <div class="bg-yellow-400 p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
+                            <i class="fa-solid fa-warehouse text-2xl"></i>
+                        </div>
                     </div>
                     <p class="text-gray-600 mb-4">
                         Comprehensive storage and fulfillment solutions ensuring product safety, accessibility, and real-time tracking.
                     </p>
                 </div>
-                <img src="/" alt="Warehousing" class="rounded-xl h-56 w-full object-cover mt-auto" />
+                <img src="/assets/images/s3.jpg" alt="Warehousing" class="rounded-xl h-56 w-full object-cover mt-auto" />
             </div>
 
             <!-- Card 4 -->
             <div class="bg-white h-full rounded-2xl shadow-sm p-6 hover:shadow-lg transition flex flex-col justify-between">
                 <div>
-                    <div class="flex items-center justify-between mb-2">
-                        <h3 class="text-xl font-bold">Customs & Compliance</h3>
-                        <i class="fa-solid fa-file-signature text-orange-500 text-xl"></i>
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 class="text-2xl font-semibold">Customs & Compliance</h3>
+                        <div class="bg-yellow-400 p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
+                            <i class="fa-solid fa-file-signature text-2xl"></i>
+                        </div>
                     </div>
                     <p class="text-gray-600 mb-4">
                         Expert management of international trade regulations, customs documentation, and certification processes.
                     </p>
                 </div>
-                <img src="/" alt="Customs & Compliance" class="rounded-xl h-56 w-full object-cover mt-auto" />
+                <img src="/assets/images/s4.jpg" alt="Customs & Compliance" class="rounded-xl h-56 w-full object-cover mt-auto" />
             </div>
 
             <!-- Card 5 -->
             <div class="bg-white h-full rounded-2xl shadow-sm p-6 hover:shadow-lg transition flex flex-col justify-between">
                 <div>
-                    <div class="flex items-center justify-between mb-2">
-                        <h3 class="text-xl font-bold">Sustainable & Ethical Sourcing</h3>
-                        <i class="fa-solid fa-leaf text-orange-500 text-xl"></i>
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 class="text-2xl font-semibold">Sustainable & Ethical Sourcing</h3>
+                        <div class="bg-yellow-400 p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
+                            <i class="fa-solid fa-leaf text-2xl"></i>
+                        </div>
                     </div>
                     <p class="text-gray-600 mb-4">
                         Committed to responsible sourcing practices that protect the environment and support ethical global supply chains.
                     </p>
                 </div>
-                <img src="/" alt="Sustainable Sourcing" class="rounded-xl h-56 w-full object-cover mt-auto" />
+                <img src="/assets/images/s5.jpg" alt="Sustainable Sourcing" class="rounded-xl h-56 w-full object-cover mt-auto" />
             </div>
 
             <!-- Card 6 -->
             <div class="bg-white h-full rounded-2xl shadow-sm p-6 hover:shadow-lg transition flex flex-col justify-between">
                 <div>
-                    <div class="flex items-center justify-between mb-2">
-                        <h3 class="text-xl font-bold">Food & Commodity Trading</h3>
-                        <i class="fa-solid fa-seedling text-orange-500 text-xl"></i>
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 class="text-2xl font-semibold">Food & Commodity Trading</h3>
+                        <div class="bg-yellow-400 p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
+                            <i class="fa-solid fa-seedling text-2xl"></i>
+                        </div>
                     </div>
                     <p class="text-gray-600 mb-4">
                         Specializing in the import and export of food items, edible oils, fertilizers, and agricultural commodities.
                     </p>
                 </div>
-                <img src="/" alt="Food & Commodity Trading" class="rounded-xl h-56 w-full object-cover mt-auto" />
+                <img src="/assets/images/s6.jpg" alt="Food & Commodity Trading" class="rounded-xl h-56 w-full object-cover mt-auto" />
             </div>
         </div>
 
