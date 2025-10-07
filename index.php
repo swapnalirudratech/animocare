@@ -13,7 +13,7 @@ $routes = [
         "page" => "home.php",
     ],
     [
-        "route" => "/checkout",
+        "route" => "/about",
         "method" => ["GET", "POST"],
         "page" => "pages/about.php",
     ],

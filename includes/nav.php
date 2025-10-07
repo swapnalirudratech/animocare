@@ -2,14 +2,14 @@
 <header class="absolute  top-0 left-0 w-full z-20 border-b-[1px] border-gray-400">
     <nav class="flex items-center justify-between px-6 lg:px-20 py-4">
         <!-- Logo -->
-        <div class="text-2xl font-bold text-orange-500">Animocare</div>
+        <div class="text-3xl font-bold text-orange-400">Animocare</div>
 
         <!-- Menu -->
         <ul class="hidden md:flex space-x-8 text-white font-medium">
             <li><a href="#" class="text-base hover:text-orange-400">Home</a></li>
             <li><a href="#" class="text-base hover:text-orange-400">Services</a></li>
             <!-- <li><a href="#" class="hover:text-orange-400">Projects</a></li> -->
-            <li><a href="#" class="text-base hover:text-orange-400">About</a></li>
+            <li><a href="/about" class="text-base hover:text-orange-400">About</a></li>
             <li><a href="#" class="text-base hover:text-orange-400">Contact</a></li>
         </ul>
 
