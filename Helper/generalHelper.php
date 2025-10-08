@@ -225,8 +225,7 @@ WHERE role = :id
 $stmt = getDBObject()->getConnection()->prepare($query);
 $stmt->bindParam(':id', $_SESSION["role"], PDO::PARAM_INT);
 $stmt->execute();
-$assignPages = $stmt->fetchAll(PDO::FETCH_ASSOC);
-;
+$assignPages = $stmt->fetchAll(PDO::FETCH_ASSOC);;
 
 $sidebarModules = [
 
@@ -234,29 +233,19 @@ $sidebarModules = [
         [
             ["Add Blog", "/blog/add-blog", ""],
             ["Blog List", "/blog/blog-list", ""],
-            // ["Designations", "/hr/designations", ""],
-            // ["Department", "/hr/departments", ""],
+            ["Add Category", "/blog/add-category", ""],
         ],
         "nav-icon fas fa-newspaper"
     ],
 
-    "Latest Updates" => [
-        [
-            ["Add YouTube Link", "/youtube/add-youtube-link", ""],
-            ["YouTube Link List ", "/youtube/list-youtube-link", ""],
+    // "Testimonials" => [
+    //     [
+    //         ["Add Testimonial ", "/testimonial/add-testimonial", ""],
+    //         ["Testimonial List", "/testimonial/testimonial-list", ""],
 
-        ],
-        "nav-icon fab fa-youtube"
-    ],
-
-    "Testimonials" => [
-        [
-            ["Add Testimonial ", "/testimonial/add-testimonial", ""],
-            ["Testimonial List", "/testimonial/testimonial-list", ""],
-
-        ],
-        "nav-icon fas fa-quote-left"
-    ],
+    //     ],
+    //     "nav-icon fas fa-quote-left"
+    // ],
 
     "Meta" => [
         [

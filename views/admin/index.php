@@ -182,44 +182,7 @@
                                     </div>
                                 </div>
                             </a>
-
-                            <!-- YouTube Videos Card -->
-                            <a href="/youtube/list-youtube-link">
-                                <div
-                                    class="bg-gradient-to-tr from-pink-50 to-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300">
-                                    <div class="flex items-center gap-4">
-                                        <div class="p-4 bg-pink-100 text-pink-600 rounded-xl shadow-inner">
-                                            <i class="fab fa-youtube text-2xl"></i>
-                                        </div>
-                                        <div>
-                                            <p class="text-base text-gray-600">YouTube Videos</p>
-                                            <h3 class="text-2xl font-bold text-pink-800"><?= $total_videos['total']; ?>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-
-                            <!-- Student Testimonials Card -->
-                            <a href="/testimonial/testimonial-list">
-                                <div
-                                    class="bg-gradient-to-tr from-yellow-50 to-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300">
-                                    <div class="flex items-center gap-4">
-                                        <div class="p-4 bg-yellow-100 text-yellow-600 rounded-xl shadow-inner">
-                                            <i class="fas fa-comment-dots text-2xl"></i>
-                                        </div>
-                                        <div>
-                                            <p class="text-base text-gray-600">Student Testimonials</p>
-                                            <h3 class="text-2xl font-bold text-yellow-700">
-                                                <?= $total_testimonilas['total']; ?>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-
                         </div>
-
 
                         <!-- Main Panel -->
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -243,7 +206,7 @@
                             </div>
 
                             <!-- Recent Testimonials -->
-                            <div class="bg-white p-6 rounded-xl shadow">
+                            <div class="bg-white p-6 rounded-xl shadow hidden">
                                 <div class="flex items-center justify-between mb-4">
                                     <h3 class="text-lg font-semibold">Recent Testimonials</h3>
                                     <a href="/testimonial/testimonial-list" class="text-gray-600 hover:text-blue-600">

@@ -91,7 +91,7 @@
 
     <!-- /*------------------------script for text fade animation---------------------------------*/ -->
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+        document.addEventListener('DOMContentLoaded', function() {
             function handleScroll() {
                 const elements = document.querySelectorAll('.fadeInUp, .fadeInRight');
 
@@ -110,7 +110,6 @@
             window.addEventListener('scroll', handleScroll);
             handleScroll(); // Initial check on page load
         });
-
     </script>
 
     <script>
@@ -135,12 +134,8 @@
             theme: {
                 extend: {
                     colors: {
-                        light: '#7D9A87',
-                        dark: '#1F3D2B',
-                        gold: '#D4AF37',
-                        goldbg: '#F8F5F0',
-                        'one-dark': '#2f4f4f',
-                        'one-light': '#aba379'
+                        brand: '#fb923c',
+                        light: '#eab308',
                     },
                     animation: {
                         'fade-in': 'fadeIn 0.5s ease-in-out',
@@ -149,12 +144,22 @@
                     },
                     keyframes: {
                         fadeIn: {
-                            '0%': { opacity: '0' },
-                            '100%': { opacity: '1' },
+                            '0%': {
+                                opacity: '0'
+                            },
+                            '100%': {
+                                opacity: '1'
+                            },
                         },
                         slideUp: {
-                            '0%': { transform: 'translateY(20px)', opacity: '0' },
-                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                            '0%': {
+                                transform: 'translateY(20px)',
+                                opacity: '0'
+                            },
+                            '100%': {
+                                transform: 'translateY(0)',
+                                opacity: '1'
+                            },
                         }
                     }
                 }
@@ -179,12 +184,12 @@
         }
 
         ::-webkit-scrollbar-thumb {
-            background: #f57717ff;
+            background: #fb923c;
             border-radius: 5px;
         }
 
         ::-webkit-scrollbar-thumb:hover {
-            background: #f57717ff;
+            background: #fb923c;
         }
     </style>
 

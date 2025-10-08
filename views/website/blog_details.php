@@ -4,7 +4,21 @@ include 'includes/header.php';
 include 'includes/nav.php';
 ?>
 
-<body class="montserrat-font">
+<body class="overflow-x-hidden">
+    <section class="relative h-[60vh] flex items-center justify-start bg-cover bg-center" style="background-image: url('/public/assets/images/bgblog.jpg');">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+
+        <div class="relative z-10 max-w-3xl px-6 lg:px-20">
+            <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight mb-3">
+                Animocare <span class="text-orange-400">Blog</span>
+            </h1>
+            <p class="mt-6 text-base text-gray-200">
+                Discover the latest news, tips, and stories from Animocare. Learn about global import-export trends, industry insights, and best practices for international trade.
+            </p>
+        </div>
+    </section>
+
 
     <!-- Main Content -->
     <section class="w-[90vw] max-md:w-full items-center justify-center mx-auto px-6 md:px-8 py-12">

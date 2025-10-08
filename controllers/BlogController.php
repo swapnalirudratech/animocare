@@ -34,6 +34,8 @@ class BlogController extends LoginController
 
             $editData = [];
 
+            $categories = $this->getData2("SELECT * FROM blog_category");
+
             require 'views/admin/blogs/add-blog.php';
         } elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
@@ -55,6 +57,78 @@ class BlogController extends LoginController
         }
     }
 
+    public function AddCategory()
+    {
+        $siteName = getDBObject()->getSiteName();
+        $pageTitle = "Add Category";
+        $this->checkSession();
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+
+            $editData = [];
+
+            $blogs = $this->getData2("SELECT * FROM blog_category");
+
+            require 'views/admin/blogs/category.php';
+        } elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
+
+            // printWithPre($_POST);
+            // printWithPre($_FILES);
+            // die();
+
+            if ($this->add($_POST, "blog_category", false)) {
+                $_SESSION['success'] = "Blog Category Added Successfully";
+            } else {
+                $_SESSION['err'] = "Something went wrong";
+            }
+
+            redirect('/blog/add-category');
+        }
+    }
+
+    public function editBlogCategory($id)
+    {
+        $siteName = getDBObject()->getSiteName();
+        $pageTitle = "Edit Blog Category";
+        $this->checkSession();
+
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+            $editData = $this->getData2("SELECT * FROM blog_category where id='$id'")[0];
+
+            $blogs = $this->getData2("SELECT * FROM blog_category");
+
+            if (empty($editData)) {
+                redirect('/blog/add-category');
+            }
+
+            require 'views/admin/blogs/category.php';
+        } elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            try {
+
+                if ($this->update($_POST, $id, "blog_category")) {
+                    $_SESSION['success'] = "Blog Category Edited Successfully";
+                } else {
+                    $_SESSION['err'] = "Something went wrong";
+                }
+
+                redirect('/blog/add-category');
+            } catch (Exception $e) {
+                $_SESSION['err'] = $e->getMessage();
+                echo $e->getMessage();
+            }
+        }
+    }
+
+    public function deleteBlogCategory($id = null)
+    {
+        if ($this->delete($id, 'blog_category')) {
+            $_SESSION['success'] = "Blog Category Deleted Successfully";
+        } else {
+            $_SESSION['err'] = "Something went wrong";
+        }
+
+        redirect('/blog/blog-category');
+    }
+
     public function EditBlog($id)
     {
         $siteName = getDBObject()->getSiteName();
@@ -69,6 +143,8 @@ class BlogController extends LoginController
 
             $editData = $this->getData2("SELECT * FROM blogs where id='$id'")[0];
 
+            $categories = $this->getData2("SELECT * FROM blog_category");
+
             // printWithPre($editData);
             // die();
 
@@ -77,7 +153,6 @@ class BlogController extends LoginController
             }
 
             require 'views/admin/blogs/add-blog.php';
-            
         } elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             // printWithPre($_POST);
@@ -99,7 +174,6 @@ class BlogController extends LoginController
                 // }
 
                 redirect('/blog/add-blog');
-
             } catch (Exception $e) {
                 $_SESSION['err'] = $e->getMessage();
                 echo $e->getMessage();
@@ -125,6 +199,3 @@ class BlogController extends LoginController
         redirect('/blog/blog-list');
     }
 }
-
-
-?>

@@ -26,9 +26,9 @@ class DashboardController extends LoginController
             $current_year = date('Y');
             $total_blogs = $this->getData2("SELECT COUNT(*) AS total FROM blogs")[0];
             // printWithPre($total_blogs);
-            $total_videos = $this->getData2("SELECT COUNT(*) AS total FROM youtube")[0];
+            // $total_videos = $this->getData2("SELECT COUNT(*) AS total FROM youtube")[0];
             // printWithPre($total_videos);
-            $total_testimonilas = $this->getData2("SELECT COUNT(*) AS total FROM testimonial")[0];
+            // $total_testimonilas = $this->getData2("SELECT COUNT(*) AS total FROM testimonial")[0];
             // printWithPre($total_testimonilas);
 
             $recentBlogs = $this->getData2("SELECT * FROM blogs ORDER BY blog_date DESC LIMIT 5");

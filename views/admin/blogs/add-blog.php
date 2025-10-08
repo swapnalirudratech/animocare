@@ -12,7 +12,7 @@
 
 <body class="hold-transition sidebar-mini layout-fixed">
     <?php
-   
+
     include $_SERVER['DOCUMENT_ROOT'] . "/views/admin/include/navbar.php";
     include $_SERVER['DOCUMENT_ROOT'] . "/views/admin/include/sidebar.php";
     ?>
@@ -75,6 +75,21 @@
                                                     class="w-full border border-gray-300 rounded-lg p-2 file:bg-indigo-100 file:border-none file:px-4 file:py-0 file:rounded file:text-indigo-700 file:cursor-pointer" />
                                             </div>
 
+                                            <div class="w-1/2 max-md:w-full">
+                                                <label for="category_id"
+                                                    class="block text-sm font-medium text-gray-700 mb-1">Category</label>
+                                                <select name="category_id" id="category_id" required
+                                                    class="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-[1px] focus:ring-[#1F3D2B]">
+                                                    <option value="">-- Select Category --</option>
+
+                                                    <?php foreach ($categories as $cat): ?>
+                                                        <option value="<?= $cat['id']; ?>" <?= !empty($editData) && $editData['category_id'] == $cat['id'] ? 'selected' : '' ?>>
+                                                            <?= htmlspecialchars($cat['blog_category']); ?>
+                                                        </option>
+                                                    <?php endforeach; ?>
+                                                </select>
+                                            </div>
+
                                             <!-- Blog Date -->
                                             <div class="w-1/2">
                                                 <label for="blog_date"
@@ -85,7 +100,6 @@
                                             </div>
                                         </div>
 
-                                        <!-- Blog Content -->
                                         <div>
                                             <label for="blog_description"
                                                 class="block text-sm font-medium text-gray-700 mb-1">Blog

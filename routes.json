@@ -9,6 +9,14 @@
     },
     {
         "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/admin",
+        "controller": "LoginController@index"
+    },
+    {
+        "methods": [
             "GET"
         ],
         "path": "/logout",
@@ -99,22 +107,6 @@
             "GET",
             "POST"
         ],
-        "path": "/blog",
-        "controller": "WebsiteController@blog"
-    },
-    {
-        "methods": [
-            "GET",
-            "POST"
-        ],
-        "path": "/blog/[*:id]",
-        "controller": "WebsiteController@blogDetails"
-    },
-    {
-        "methods": [
-            "GET",
-            "POST"
-        ],
         "path": "/testimonial/add-testimonial",
         "controller": "TestimonialController@AddTestimonial"
     },
@@ -141,6 +133,38 @@
         ],
         "path": "/testimonial/delete-testimonial/[*:id]",
         "controller": "TestimonialController@deleteTestimonial"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog/add-category",
+        "controller": "BlogController@AddCategory"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog/edit-blog-category/[*:id]",
+        "controller": "BlogController@editBlogCategory"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog/delete-blog-category/[*:id]",
+        "controller": "BlogController@deleteBlogCategory"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog/add-category",
+        "controller": "BlogController@AddCategory"
     },
     {
         "methods": [
@@ -333,5 +357,21 @@
         ],
         "path": "/api/getPages",
         "controller": "ModuleController@getPages"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog",
+        "controller": "WebsiteController@blog"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/blog/[*:id]",
+        "controller": "WebsiteController@blogDetails"
     }
 ]

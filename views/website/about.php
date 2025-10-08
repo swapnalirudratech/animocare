@@ -7,21 +7,17 @@ include 'includes/nav.php';
 <body class="overflow-x-hidden">
 
   <section class="relative h-screen flex items-center justify-start bg-cover bg-center" style="background-image: url('/public/assets/images/abt.jpg');">
-    <!-- Overlay -->
     <div class="absolute inset-0 bg-black bg-opacity-60"></div>
     <div class="relative z-10 max-w-3xl px-6 lg:px-20">
       <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight">
-        <div class="mb-3">About Animocare</div>
-        <div class="mb-3 text-orange-400">Connecting Markets, Empowering Trade</div>
-
+        <div>About Animocare</div>
+        <div class="text-orange-400">Empowering Global Trade</div>
       </h1>
+
       <p class="mt-6 text-base text-gray-200">
-        Animocare is a global import-export company dedicated to delivering quality food products, edible oils,
-        fertilizers, and more across continents. With a strong supply chain network and industry expertise, we ensure excellence in every shipment.
+        Animocare is a global import-export company providing quality food products, edible oils, and fertilizers worldwide.
       </p>
-      <!-- <div class="mt-8">
-                <a href="#" class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">Learn More →</a>
-            </div> -->
+
     </div>
   </section>
 
@@ -73,7 +69,7 @@ include 'includes/nav.php';
         </div>
 
         <!-- Button -->
-        <a href="#" class="inline-block bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-6 py-3 rounded-full font-semibold shadow hover:opacity-90 transition">
+        <a href="/contact" class="inline-block bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-6 py-3 rounded-full font-semibold shadow hover:opacity-90 transition">
           Connect us →
         </a>
       </div>

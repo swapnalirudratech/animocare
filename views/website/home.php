@@ -20,7 +20,7 @@ include 'includes/nav.php';
                 Committed to quality, reliability, and seamless logistics across the globe.
             </p>
             <div class="mt-8">
-                <a href="#" class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">Learn More →</a>
+                <a href="/about" class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">Read More →</a>
             </div>
         </div>
     </section>
