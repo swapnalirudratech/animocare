@@ -18,7 +18,6 @@ class ComposerStaticInit6e57a2153ec08291f2790e11584f4bbe
         ),
         'S' => 
         array (
-            'Stripe\\' => 7,
             'Sarvesh\\Router\\' => 15,
         ),
         'P' => 
@@ -44,10 +43,6 @@ class ComposerStaticInit6e57a2153ec08291f2790e11584f4bbe
         'setasign\\Fpdi\\' => 
         array (
             0 => __DIR__ . '/..' . '/setasign/fpdi/src',
-        ),
-        'Stripe\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
         ),
         'Sarvesh\\Router\\' => 
         array (

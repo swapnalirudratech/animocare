@@ -15,8 +15,7 @@
     "altorouter/altorouter": "^2.0",
     "phpmailer/phpmailer": "^6.9",
     "picqer/php-barcode-generator": "^2.4",
-    "mpdf/mpdf": "^8.0",
-        "stripe/stripe-php": "^17.3"
+    "mpdf/mpdf": "^8.0"
 },
 
     "config": {
