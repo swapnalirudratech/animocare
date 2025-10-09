@@ -11,13 +11,13 @@ include 'includes/nav.php';
         <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 
         <div class="relative z-10 max-w-3xl px-6 lg:px-20">
-            <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight">
+            <h1 class="lg:text-5xl md:text-4xl text-3xl font-bold text-white leading-tight">
                 <div class="mb-3">Our Team</div>
-                <div class="mb-3 text-orange-400">People Behind Animocare</div>
+                <div class="mb-3 text-brand">People Behind Animocare Private Limited</div>
             </h1>
 
             <p class="mt-6 text-base text-gray-200">
-                Meet the dedicated professionals driving Animocare’s mission to connect global markets with trust and excellence.
+                Meet the dedicated professionals driving Animocare Private Limited’s mission to connect global markets with trust and excellence.
             </p>
         </div>
     </section>
@@ -25,12 +25,12 @@ include 'includes/nav.php';
     <div class="w-full mx-auto py-14">
         <!-- Header Section -->
         <div class="text-center mb-12">
-            <span class="text-orange-500 font-semibold tracking-wide uppercase">
-                <span class="text-orange-500">✦</span> Our Team
+            <span class="text-brand font-semibold tracking-wide uppercase">
+                <span class="text-brand">✦</span> Our Team
             </span>
             <h2 class="text-4xl font-extrabold mt-3 mb-4">
                 Meet the People <br />
-                Behind Animocare’s Global Success
+                Behind Animocare Private Limited’s Global Success
             </h2>
             <p class="text-gray-600 max-w-2xl mx-auto">
                 A diverse team of professionals dedicated to building trust, driving innovation, and connecting markets worldwide.
@@ -48,7 +48,7 @@ include 'includes/nav.php';
                             alt="Demon Cats"
                             class="w-full md:h-64 lg:h-80 max-md:h-48 object-cover transition-transform duration-300 group-hover:scale-105">
                         <div
-                            class="absolute inset-0 bg-gradient-to-l from-brand-orange/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            class="absolute inset-0 bg-gradient-to-l from-brand-brandto-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         </div>
 
 
@@ -81,7 +81,7 @@ include 'includes/nav.php';
                     </div>
                     <div class="text-left">
                         <h3
-                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-orange transition-colors duration-300">
+                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
                             Demon Cats</h3>
                         <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
@@ -96,7 +96,7 @@ include 'includes/nav.php';
                             alt="Sammy Flaws"
                             class="w-full md:h-64 lg:h-80 max-md:h-48 object-cover transition-transform duration-300 group-hover:scale-105">
                         <div
-                            class="absolute inset-0 bg-gradient-to-l from-brand-orange/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            class="absolute inset-0 bg-gradient-to-l from-brand-brandto-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         </div>
 
                         <div
@@ -128,7 +128,7 @@ include 'includes/nav.php';
                     </div>
                     <div class="text-left">
                         <h3
-                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-orange transition-colors duration-300">
+                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
                             Demon Cats</h3>
                         <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
@@ -143,7 +143,7 @@ include 'includes/nav.php';
                             alt="Emily Carter"
                             class="w-full md:h-64 lg:h-80 max-md:h-48 object-cover transition-transform duration-300 group-hover:scale-105">
                         <div
-                            class="absolute inset-0 bg-gradient-to-l from-brand-orange/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            class="absolute inset-0 bg-gradient-to-l from-brand-brandto-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         </div>
 
                         <div
@@ -175,7 +175,7 @@ include 'includes/nav.php';
                     </div>
                     <div class="text-left">
                         <h3
-                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-orange transition-colors duration-300">
+                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
                             Demon Cats</h3>
                         <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
@@ -190,7 +190,7 @@ include 'includes/nav.php';
                             alt="Simon Cyrene"
                             class="w-full md:h-64 lg:h-80 max-md:h-48 object-cover transition-transform duration-300 group-hover:scale-105">
                         <div
-                            class="absolute inset-0 bg-gradient-to-l from-brand-orange/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            class="absolute inset-0 bg-gradient-to-l from-brand-brandto-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         </div>
 
                         <div
@@ -222,7 +222,7 @@ include 'includes/nav.php';
                     </div>
                     <div class="text-left">
                         <h3
-                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-orange transition-colors duration-300">
+                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
                             Demon Cats</h3>
                         <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
@@ -237,7 +237,7 @@ include 'includes/nav.php';
                             alt="Paul Flawus"
                             class="w-full md:h-64 lg:h-80 max-md:h-48 object-cover transition-transform duration-300 group-hover:scale-105">
                         <div
-                            class="absolute inset-0 bg-gradient-to-l from-brand-orange/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            class="absolute inset-0 bg-gradient-to-l from-brand-brandto-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         </div>
 
                         <div
@@ -269,7 +269,7 @@ include 'includes/nav.php';
                     </div>
                     <div class="text-left">
                         <h3
-                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-orange transition-colors duration-300">
+                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
                             Demon Cats</h3>
                         <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
@@ -284,7 +284,7 @@ include 'includes/nav.php';
                             alt="Melissa Doe"
                             class="w-full md:h-64 lg:h-80 max-md:h-48 object-cover transition-transform duration-300 group-hover:scale-105">
                         <div
-                            class="absolute inset-0 bg-gradient-to-l from-brand-orange/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            class="absolute inset-0 bg-gradient-to-l from-brand-brandto-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         </div>
 
                         <div
@@ -316,7 +316,7 @@ include 'includes/nav.php';
                     </div>
                     <div class="text-left">
                         <h3
-                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-orange transition-colors duration-300">
+                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
                             Demon Cats</h3>
                         <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>

@@ -6,7 +6,7 @@ include 'includes/nav.php';
 
 <body>
     <div class="w-full bg-gray-900 h-[50vh] items-center justify-center flex">
-        <h1 class="text-5xl font-semibold text-center text-white"> Privacy Policy</h1>
+        <h1 class="lg:text-5xl md:text-4xl text-3xl font-semibold text-center text-white"> Privacy Policy</h1>
     </div>
     <div class="w-[70vw] max-md:w-full mx-auto px-4 py-10">
         <!-- Header -->
@@ -93,9 +93,9 @@ include 'includes/nav.php';
                 <h2 class="text-xl font-semibold text-gray-900 mb-2">11. Contact Us</h2>
                 <p>
                     For questions or concerns, contact us at:<br>
-                    <strong>Animocare</strong><br>
-                    Email: <a href="mailto:support@animocare.com" class="text-blue-600 hover:underline">support@animocare.com</a><br>
-                    Website: <a href="https://animocare.com" class="text-blue-600 hover:underline">animocare.com</a>
+                    <strong>Animocare Private Limited</strong><br>
+                    Email: <a href="mailto:support@Animocare Private Limited.com" class="text-blue-600 hover:underline">support@Animocare Private Limited.com</a><br>
+                    Website: <a href="https://Animocare Private Limited.com" class="text-blue-600 hover:underline">Animocare Private Limited.com</a>
                 </p>
             </div>
         </section>

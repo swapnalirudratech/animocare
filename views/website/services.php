@@ -10,9 +10,9 @@ include 'includes/nav.php';
         <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 
         <div class="relative z-10 max-w-3xl px-6 lg:px-20">
-            <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight">
+            <h1 class="lg:text-5xl md:text-4xl text-3xl font-bold text-white leading-tight">
                 <div class="mb-3">Our Services</div>
-                <div class="mb-3 text-orange-400">Simplifying Global Trade</div>
+                <div class="mb-3 text-brand">Simplifying Global Trade</div>
             </h1>
 
             <p class="mt-6 text-base text-gray-200">
@@ -24,14 +24,14 @@ include 'includes/nav.php';
     <section class="w-full mx-auto px-6 py-20">
         <!-- Header -->
         <div class="text-center mb-12">
-            <span class="text-orange-500 font-semibold tracking-wide uppercase">
-                <span class="text-orange-500">✦</span> Featured Services</span>
+            <span class="text-brand font-semibold tracking-wide uppercase">
+                <span class="text-brand">✦</span> Featured Services</span>
             <h2 class="text-4xl font-extrabold mt-3 mb-4">
                 Find The Perfect Global Trade <br />
                 Solution With Our Service
             </h2>
             <p class="text-gray-600 max-w-2xl mx-auto">
-                From sourcing and procurement to logistics and distribution, Animocare provides end-to-end import–export
+                From sourcing and procurement to logistics and distribution, Animocare Private Limited provides end-to-end import–export
                 services. Our experts ensure quality, compliance, and efficiency at every stage of the global supply chain.
             </p>
         </div>
@@ -43,7 +43,7 @@ include 'includes/nav.php';
                 <div>
                     <div class="flex items-center justify-between mb-6">
                         <h3 class="text-2xl font-semibold">Global Sourcing</h3>
-                        <div class="bg-yellow-400 p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
+                        <div class="bg-light p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
                             <i class="fa-solid fa-globe text-2xl"></i>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ include 'includes/nav.php';
                 <div>
                     <div class="flex items-center justify-between mb-6">
                         <h3 class="text-2xl font-semibold">International Shipping & Logistics</h3>
-                        <div class="bg-yellow-400 p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
+                        <div class="bg-light p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
                             <i class="fa-solid fa-ship text-2xl"></i>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ include 'includes/nav.php';
                 <div>
                     <div class="flex items-center justify-between mb-6">
                         <h3 class="text-2xl font-semibold">Warehousing & Distribution</h3>
-                        <div class="bg-yellow-400 p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
+                        <div class="bg-light p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
                             <i class="fa-solid fa-warehouse text-2xl"></i>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ include 'includes/nav.php';
                 <div>
                     <div class="flex items-center justify-between mb-6">
                         <h3 class="text-2xl font-semibold">Customs & Compliance</h3>
-                        <div class="bg-yellow-400 p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
+                        <div class="bg-light p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
                             <i class="fa-solid fa-file-signature text-2xl"></i>
                         </div>
                     </div>
@@ -107,7 +107,7 @@ include 'includes/nav.php';
                 <div>
                     <div class="flex items-center justify-between mb-6">
                         <h3 class="text-2xl font-semibold">Sustainable & Ethical Sourcing</h3>
-                        <div class="bg-yellow-400 p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
+                        <div class="bg-light p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
                             <i class="fa-solid fa-leaf text-2xl"></i>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ include 'includes/nav.php';
                 <div>
                     <div class="flex items-center justify-between mb-6">
                         <h3 class="text-2xl font-semibold">Food & Commodity Trading</h3>
-                        <div class="bg-yellow-400 p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
+                        <div class="bg-light p-2 rounded-full text-white h-14 w-14 flex items-center justify-center">
                             <i class="fa-solid fa-seedling text-2xl"></i>
                         </div>
                     </div>
@@ -139,7 +139,7 @@ include 'includes/nav.php';
 
         <!-- Pagination -->
         <!-- <div class="flex justify-center items-center mt-12 space-x-2">
-            <button class="h-3 w-3 bg-orange-500 rounded-full"></button>
+            <button class="h-3 w-3 bg-brand rounded-full"></button>
             <button class="h-3 w-3 bg-gray-300 rounded-full"></button>
             <span class="text-gray-500 text-sm font-medium ml-4">1 / 2 →</span>
         </div> -->

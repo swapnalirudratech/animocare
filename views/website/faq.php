@@ -6,7 +6,7 @@ include 'includes/nav.php';
 
 <body>
      <div class="w-full bg-gray-900 h-[50vh] items-center justify-center flex">
-        <h1 class="text-5xl font-semibold text-center text-white">Frequently Asked Questions</h1>
+        <h1 class="lg:text-5xl md:text-4xl text-3xl font-semibold text-center text-white">Frequently Asked Questions</h1>
     </div>
     <!-- <div>
         <h1 class="text-5xl font-semibold text-center text-gray-900 my-10">Frequently Asked Questions</h1>
@@ -22,11 +22,11 @@ include 'includes/nav.php';
                 <div class="bg-white overflow-hidden">
                     <button onclick="toggleFAQ(this)"
                         class="w-full flex justify-between items-center p-5 text-left font-semibold text-gray-900 hover:bg-gray-100 transition">
-                        Q1: What products does Animocare export?
+                        Q1: What products does Animocare Private Limited export?
                         <span class="ml-4 transform transition-transform"><i class="fas fa-chevron-down"></i></span>
                     </button>
                     <div class="hidden p-5 text-gray-700 leading-relaxed">
-                        Animocare exports a variety of high-quality products including food items, edible oils, fertilizers, and other essential goods to international markets.
+                        Animocare Private Limited exports a variety of high-quality products including food items, edible oils, fertilizers, and other essential goods to international markets.
                     </div>
                 </div>
 
@@ -37,7 +37,7 @@ include 'includes/nav.php';
                         <span class="ml-4 transform transition-transform"><i class="fas fa-chevron-down"></i></span>
                     </button>
                     <div class="hidden p-5 text-gray-700 leading-relaxed">
-                        Animocare ships globally, covering major international markets across Asia, Europe, Africa, and the Americas, ensuring timely delivery and reliable service.
+                        Animocare Private Limited ships globally, covering major international markets across Asia, Europe, Africa, and the Americas, ensuring timely delivery and reliable service.
                     </div>
                 </div>
 
@@ -59,7 +59,7 @@ include 'includes/nav.php';
                         <span class="ml-4 transform transition-transform"><i class="fas fa-chevron-down"></i></span>
                     </button>
                     <div class="hidden p-5 text-gray-700 leading-relaxed">
-                        Shipping timelines depend on the product and destination, but Animocare ensures fast and reliable delivery, with updates provided at every stage of transit.
+                        Shipping timelines depend on the product and destination, but Animocare Private Limited ensures fast and reliable delivery, with updates provided at every stage of transit.
                     </div>
                 </div>
 
@@ -77,7 +77,7 @@ include 'includes/nav.php';
                 <div class="bg-white overflow-hidden">
                     <button onclick="toggleFAQ(this)"
                         class="w-full flex justify-between items-center p-5 text-left font-semibold text-gray-900 hover:bg-gray-100 transition">
-                        Q6: How does Animocare ensure product quality?
+                        Q6: How does Animocare Private Limited ensure product quality?
                         <span class="ml-4 transform transition-transform"><i class="fas fa-chevron-down"></i></span>
                     </button>
                     <div class="hidden p-5 text-gray-700 leading-relaxed">
@@ -92,14 +92,14 @@ include 'includes/nav.php';
                         <span class="ml-4 transform transition-transform"><i class="fas fa-chevron-down"></i></span>
                     </button>
                     <div class="hidden p-5 text-gray-700 leading-relaxed">
-                        Yes. Animocare provides tracking details for all shipments so you can monitor delivery progress in real-time.
+                        Yes. Animocare Private Limited provides tracking details for all shipments so you can monitor delivery progress in real-time.
                     </div>
                 </div>
 
                 <div class="bg-white overflow-hidden">
                     <button onclick="toggleFAQ(this)"
                         class="w-full flex justify-between items-center p-5 text-left font-semibold text-gray-900 hover:bg-gray-100 transition">
-                        Q8: Does Animocare offer customized packaging?
+                        Q8: Does Animocare Private Limited offer customized packaging?
                         <span class="ml-4 transform transition-transform"><i class="fas fa-chevron-down"></i></span>
                     </button>
                     <div class="hidden p-5 text-gray-700 leading-relaxed">

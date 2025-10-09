@@ -10,11 +10,11 @@ include 'includes/nav.php';
         <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 
         <div class="relative z-10 max-w-3xl px-6 lg:px-20">
-            <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight mb-3">
-                Animocare <span class="text-orange-400">Blog</span>
+            <h1 class="lg:text-5xl md:text-4xl text-3xl font-bold text-white leading-tight mb-3">
+                Animocare Private Limited <span class="text-brand">Blog</span>
             </h1>
             <p class="mt-6 text-base text-gray-200">
-                Discover the latest news, tips, and stories from Animocare. Learn about global import-export trends, industry insights, and best practices for international trade.
+                Discover the latest news, tips, and stories from Animocare Private Limited. Learn about global import-export trends, industry insights, and best practices for international trade.
             </p>
         </div>
     </section>

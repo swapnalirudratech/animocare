@@ -10,17 +10,17 @@ include 'includes/nav.php';
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black bg-opacity-60"></div>
         <div class="relative z-10 max-w-3xl px-6 lg:px-20">
-            <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight">
-                <div class="mb-3">Animocare</div>
-                <div class="mb-3 text-orange-400">Import & Export</div>
+            <h1 class="lg:text-5xl md:text-4xl text-3xl font-bold text-white leading-tight">
+                <div class="mb-3">Animocare Private Limited</div>
+                <div class="mb-3 text-brand">Import & Export</div>
                 <div>Global Solutions</div>
             </h1>
             <p class="mt-6 text-base text-gray-200">
-                At Animocare, we specialize in the international trade of food, edible oils, fertilizers, and more.
+                At Animocare Private Limited, we specialize in the international trade of food, edible oils, fertilizers, and more.
                 Committed to quality, reliability, and seamless logistics across the globe.
             </p>
             <div class="mt-8">
-                <a href="/about" class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">Read More →</a>
+                <a href="/about" class="bg-gradient-to-r from-brand to-light text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">Read More →</a>
             </div>
         </div>
     </section>
@@ -38,14 +38,14 @@ include 'includes/nav.php';
                     <div class="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-end items-start p-6 
                 opacity-0 translate-y-full group-hover:translate-y-0 group-hover:opacity-100 
                 transition-all duration-500 ease-in-out rounded-2xl">
-                        <div class="bg-orange-500 text-white px-2 py-1 text-sm rounded mb-3 font-semibold">
+                        <div class="bg-brand text-white px-2 py-1 text-sm rounded mb-3 font-semibold">
                             Quality Assurance
                         </div>
                         <h4 class="text-white text-xl font-bold mb-2">Verified & Certified Goods</h4>
                         <p class="text-white text-sm mb-4">
                             Every shipment is inspected to ensure top-grade food, oil, and agricultural products meet international standards.
                         </p>
-                        <a href="#" class="text-sm text-yellow-300 font-medium hover:underline">Read More →</a>
+                        <a href="#" class="text-sm text-light font-medium hover:underline">Read More →</a>
                     </div>
                 </div>
 
@@ -55,14 +55,14 @@ include 'includes/nav.php';
                     <div class="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-end items-start p-6 
                 opacity-0 translate-y-full group-hover:translate-y-0 group-hover:opacity-100 
                 transition-all duration-500 ease-in-out rounded-2xl">
-                        <div class="bg-orange-500 text-white px-2 py-1 text-sm rounded mb-3 font-semibold">
+                        <div class="bg-brand text-white px-2 py-1 text-sm rounded mb-3 font-semibold">
                             Secure Packaging
                         </div>
                         <h4 class="text-white text-xl font-bold mb-2">Safe. Sustainable. Reliable.</h4>
                         <p class="text-white text-sm mb-4">
                             From grains to industrial goods, our eco-friendly packaging protects product integrity during long-haul exports.
                         </p>
-                        <a href="#" class="text-sm text-yellow-300 font-medium hover:underline">Read More →</a>
+                        <a href="#" class="text-sm text-light font-medium hover:underline">Read More →</a>
                     </div>
                 </div>
 
@@ -72,22 +72,22 @@ include 'includes/nav.php';
                     <div class="absolute inset-0 bg-black bg-opacity-70 flex flex-col justify-end items-start p-6 
                 opacity-0 translate-y-full group-hover:translate-y-0 group-hover:opacity-100 
                 transition-all duration-500 ease-in-out">
-                        <div class="bg-orange-500 text-white px-2 py-1 text-sm rounded mb-3 font-semibold">
+                        <div class="bg-brand text-white px-2 py-1 text-sm rounded mb-3 font-semibold">
                             Global Logistics
                         </div>
                         <h4 class="text-white text-xl font-bold mb-2">Fast & Flexible Delivery</h4>
                         <p class="text-white text-sm mb-4">
                             Whether it's perishable foods or bulk fertilizers, our logistics ensure timely, secure, and cost-effective delivery.
                         </p>
-                        <a href="#" class="text-sm text-yellow-300 font-medium hover:underline">Read More →</a>
+                        <a href="#" class="text-sm text-light font-medium hover:underline">Read More →</a>
                     </div>
                 </div>
             </div>
 
             <div class="text-center mt-10">
-                <!-- <p class="text-orange-500 font-semibold text-sm uppercase">Since 2007</p> -->
+                <!-- <p class="text-brand font-semibold text-sm uppercase">Since 2007</p> -->
                 <h2 class="text-3xl md:text-4xl font-bold mt-2 leading-snug w-[70%] mx-auto">
-                    Animocare delivers premium-quality goods worldwide — from food and edible oils to fertilizers and agro-products, with certified safety and seamless logistics.
+                    Animocare Private Limited delivers premium-quality goods worldwide — from food and edible oils to fertilizers and agro-products, with certified safety and seamless logistics.
                 </h2>
             </div>
         </div>
@@ -103,8 +103,8 @@ include 'includes/nav.php';
             </div>
 
             <div class="relative ">
-                <span class="text-orange-500 font-semibold text-sm uppercase tracking-wide">
-                    <span class="text-orange-500">✦</span> About Us
+                <span class="text-brand font-semibold text-sm uppercase tracking-wide">
+                    <span class="text-brand">✦</span> About Us
                 </span>
                 <h2 class="text-3xl md:text-4xl font-bold leading-tight mt-2">
                     Your Trusted Partner for <br>
@@ -112,27 +112,27 @@ include 'includes/nav.php';
                     Solutions
                 </h2>
                 <p class="mt-3 text-gray-600 text-base leading-relaxed">
-                    Since 2007, <span class="font-semibold">Animocare</span> has been at the forefront of international trade—connecting global markets with top-quality products.
+                    <span class="font-semibold">Animocare Private Limited</span> has been at the forefront of international trade—connecting global markets with top-quality products.
                     Specializing in the export and import of food items, edible oils, fertilizers, and other agricultural commodities, we ensure safe, timely, and efficient delivery across borders.
                 </p>
 
                 <ul class="mt-3 space-y-3">
                     <li class="flex items-start">
-                        <span class="text-orange-500 text-base mr-3">✔</span>
+                        <span class="text-brand text-base mr-3">✔</span>
                         <span>Serving clients in over 50 countries with a reliable global network</span>
                     </li>
                     <li class="flex items-start">
-                        <span class="text-orange-500 text-base mr-3">✔</span>
+                        <span class="text-brand text-base mr-3">✔</span>
                         <span>Expert handling of customs, compliance, and documentation</span>
                     </li>
                     <li class="flex items-start">
-                        <span class="text-orange-500 text-base mr-3">✔</span>
+                        <span class="text-brand text-base mr-3">✔</span>
                         <span>Committed to sustainability, ethical sourcing, and quality assurance</span>
                     </li>
                 </ul>
 
                 <div class="mt-8">
-                    <a href="/about" class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">View More →</a>
+                    <a href="/about" class="bg-gradient-to-r from-brand to-light text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">View More →</a>
                 </div>
             </div>
 
@@ -148,70 +148,70 @@ include 'includes/nav.php';
 
     <section class="pb-16 relative">
         <div class="w-[80%] max-md:w-[90%] mx-auto text-center">
-            <span class="text-orange-500 font-semibold text-sm uppercase tracking-wide">
-                <span class="text-orange-500">✦</span> Featured Services
+            <span class="text-brand font-semibold text-sm uppercase tracking-wide">
+                <span class="text-brand">✦</span> Featured Services
             </span>
             <h2 class="text-3xl md:text-4xl font-bold leading-tight mt-2">
                 Find the Perfect Solution <br> With Our Services
             </h2>
             <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
-                From sourcing and export of agri-products to global logistics, Animocare provides tailored solutions that streamline your international trade operations.
+                From sourcing and export of agri-products to global logistics, Animocare Private Limited provides tailored solutions that streamline your international trade operations.
             </p>
 
             <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
                 <!-- Global Sourcing -->
                 <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
-                    <div class="w-14 h-14 mx-auto mb-6 flex items-center justify-center rounded-full bg-orange-100 text-orange-600 text-2xl">
+                    <div class="w-14 h-14 mx-auto mb-6 flex items-center justify-center rounded-full bg-light text-white text-2xl">
                         <i class="fas fa-globe"></i>
                     </div>
                     <h3 class="text-lg font-bold mb-3">Global Sourcing</h3>
                     <p class="text-gray-600 mb-4">
                         Reliable sourcing of food, edible oils, fertilizers, and agri-products from certified producers worldwide.
                     </p>
-                    <a href="#" class="text-sm font-semibold text-gray-900 hover:text-orange-500">Read More →</a>
+                    <a href="#" class="text-sm font-semibold text-gray-900 hover:text-brand">Read More →</a>
                 </div>
 
                 <!-- Sea Freight -->
                 <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
-                    <div class="w-14 h-14 mx-auto mb-6 flex items-center justify-center rounded-full bg-orange-100 text-orange-600 text-2xl">
+                    <div class="w-14 h-14 mx-auto mb-6 flex items-center justify-center rounded-full bg-light text-white text-2xl">
                         <i class="fas fa-ship"></i>
                     </div>
                     <h3 class="text-lg font-bold mb-3">Sea Freight</h3>
                     <p class="text-gray-600 mb-4">
                         Efficient ocean freight solutions for large-volume exports, with full customs and compliance support.
                     </p>
-                    <a href="#" class="text-sm font-semibold text-gray-900 hover:text-orange-500">Read More →</a>
+                    <a href="#" class="text-sm font-semibold text-gray-900 hover:text-brand">Read More →</a>
                 </div>
 
                 <!-- Air Freight -->
                 <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
-                    <div class="w-14 h-14 mx-auto mb-6 flex items-center justify-center rounded-full bg-orange-100 text-orange-600 text-2xl">
+                    <div class="w-14 h-14 mx-auto mb-6 flex items-center justify-center rounded-full bg-light text-white text-2xl">
                         <i class="fas fa-plane-departure"></i>
                     </div>
                     <h3 class="text-lg font-bold mb-3">Air Freight</h3>
                     <p class="text-gray-600 mb-4">
                         Fast-track delivery of time-sensitive goods like fresh produce and premium products.
                     </p>
-                    <a href="#" class="text-sm font-semibold text-gray-900 hover:text-orange-500">Read More →</a>
+                    <a href="#" class="text-sm font-semibold text-gray-900 hover:text-brand">Read More →</a>
                 </div>
 
                 <!-- Supply Chain Management -->
                 <div class="bg-white p-8 rounded-2xl shadow hover:shadow-xl transition">
-                    <div class="w-14 h-14 mx-auto mb-6 flex items-center justify-center rounded-full bg-orange-100 text-orange-600 text-2xl">
+                    <div class="w-14 h-14 mx-auto mb-6 flex items-center justify-center rounded-full bg-light text-white text-2xl">
                         <i class="fas fa-warehouse"></i>
                     </div>
                     <h3 class="text-lg font-bold mb-3">Supply Chain</h3>
                     <p class="text-gray-600 mb-4">
                         Integrated supply chain and warehousing solutions to ensure your products move efficiently and securely.
                     </p>
-                    <a href="#" class="text-sm font-semibold text-gray-900 hover:text-orange-500">Read More →</a>
+                    <a href="#" class="text-sm font-semibold text-gray-900 hover:text-brand">Read More →</a>
                 </div>
 
             </div>
 
             <div class="mt-12">
-                <a href="/services" class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">
+                <a href="/services" class="bg-gradient-to-r from-brand to-light text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">
                     See All Services →
                 </a>
             </div>
@@ -275,14 +275,14 @@ include 'includes/nav.php';
     <section class="w-full h-auto bg-gray-50">
         <div class="w-[80%] mx-auto py-20">
             <div class="text-center max-w-3xl mx-auto mb-12">
-                <p class="text-sm font-semibold text-orange-500 flex items-center justify-center gap-2 mb-2">
-                    <span class="text-orange-500">✦</span> WHY CHOOSE US
+                <p class="text-sm font-semibold text-brand flex items-center justify-center gap-2 mb-2">
+                    <span class="text-brand">✦</span> WHY CHOOSE US
                 </p>
                 <h2 class="text-3xl md:text-4xl font-bold mb-4 leading-snug">
-                    Why Animocare Is Your <br> Trusted Import & Export Partner
+                    Why Animocare Private Limited Is Your <br> Trusted Import & Export Partner
                 </h2>
                 <p class="text-gray-600">
-                    From food and edible oils to fertilizers and bulk commodities, Animocare delivers reliability, regulatory compliance, and world-class logistics — built on two decades of global trade expertise.
+                    From food and edible oils to fertilizers and bulk commodities, Animocare Private Limited delivers reliability, regulatory compliance, and world-class logistics — built on two decades of global trade expertise.
                 </p>
             </div>
 
@@ -291,17 +291,17 @@ include 'includes/nav.php';
 
                     <!-- Image Block -->
                     <div class="bg-white rounded-xl overflow-hidden shadow-sm h-[28vh]">
-                        <img src="/public/assets/images/wholesale.jpeg" alt="Animocare Team" class="w-full h-full object-cover">
+                        <img src="/public/assets/images/wholesale.jpeg" alt="Animocare Private Limited Team" class="w-full h-full object-cover">
                     </div>
 
                     <!-- Expertise -->
                     <div class="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between h-[28vh]">
                         <div class="flex items-center justify-between">
                             <h3 class="font-bold text-xl mb-3">Expertise <br> & Experience</h3>
-                            <span class="text-yellow-500 text-6xl"><i class="fas fa-user-tie"></i></span>
+                            <span class="text-light text-6xl"><i class="fas fa-user-tie"></i></span>
                         </div>
                         <p class="text-gray-600 mb-4">
-                            With over 20 years in international trade, we offer deep market knowledge and seamless cross-border operations.
+                            In international trade, we offer deep market knowledge and seamless cross-border operations.
                         </p>
                     </div>
 
@@ -309,7 +309,7 @@ include 'includes/nav.php';
                     <div class="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between h-[28vh]">
                         <div class="flex items-center justify-between">
                             <h3 class="font-bold text-lg mb-3">Cold Chain <br> & Warehousing</h3>
-                            <span class="text-yellow-500 text-6xl"><i class="fas fa-snowflake"></i></span>
+                            <span class="text-light text-6xl"><i class="fas fa-snowflake"></i></span>
                         </div>
                         <p class="text-gray-600 mb-4">
                             Advanced cold storage and warehousing ensure your perishable and sensitive goods arrive in top condition.
@@ -320,7 +320,7 @@ include 'includes/nav.php';
                     <div class="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between h-[28vh]">
                         <div class="flex items-center justify-between">
                             <h3 class="font-bold text-lg mb-3">Global Compliance</h3>
-                            <span class="text-yellow-500 text-6xl"><i class="fas fa-certificate"></i></span>
+                            <span class="text-light text-6xl"><i class="fas fa-certificate"></i></span>
                         </div>
                         <p class="text-gray-600 mb-4">
                             Fully certified operations that meet export-import regulations, food safety laws, and environmental standards.
@@ -330,7 +330,7 @@ include 'includes/nav.php';
 
                 <!-- Side Image -->
                 <div class="md:col-span-1">
-                    <img src="/public/assets/images/delivery.jpeg" alt="Animocare Warehouse" class="rounded-xl w-full h-full object-cover">
+                    <img src="/public/assets/images/delivery.jpeg" alt="Animocare Private Limited Warehouse" class="rounded-xl w-full h-full object-cover">
                 </div>
             </div>
         </div>
@@ -344,14 +344,14 @@ include 'includes/nav.php';
 
             <!-- Left Column (Sticky Header) -->
             <div class="w-[40%] sticky top-36 self-start">
-                <p class="text-sm text-orange-500 font-semibold uppercase mb-3">
-                    <span class="text-orange-500">✦</span> What They Say
+                <p class="text-sm text-brand font-semibold uppercase mb-3">
+                    <span class="text-brand">✦</span> What They Say
                 </p>
                 <h1 class="text-3xl md:text-5xl font-bold leading-tight">
                     Real Words<br>
                     From Our<br>
                     Global Clients<br>
-                    About Animocare.
+                    About Animocare Private Limited.
                 </h1>
             </div>
 
@@ -362,10 +362,10 @@ include 'includes/nav.php';
                 <div class="flex gap-5 items-start">
                     <img src="/public/assets/images/profile.jpeg" alt="Client Image" class="rounded-xl w-44 h-44 object-cover">
                     <div class="flex-1">
-                        <span class="inline-block bg-yellow-500 text-white text-xs px-3 py-1 rounded-full font-semibold mb-2">India</span>
+                        <span class="inline-block bg-light text-white text-xs px-3 py-1 rounded-full font-semibold mb-2">India</span>
                         <p class="text-sm text-gray-500">
-                            <i class="fas fa-quote-left mr-2 text-orange-400"></i>
-                            Animocare helped us expand our agri-exports across Asia. Their expertise in documentation and market compliance is truly impressive.
+                            <i class="fas fa-quote-left mr-2 text-brand"></i>
+                            Animocare Private Limited helped us expand our agri-exports across Asia. Their expertise in documentation and market compliance is truly impressive.
                         </p>
                         <h2 class="text-base font-semibold mt-2">Rahul Mehta</h2>
                         <p class="text-sm text-gray-500">Founder, Spice Roots</p>
@@ -376,10 +376,10 @@ include 'includes/nav.php';
                 <div class="flex gap-5 items-start">
                     <img src="/public/assets/images/profile.jpeg" alt="Client Image" class="rounded-xl w-44 h-44 object-cover">
                     <div class="flex-1">
-                        <span class="inline-block bg-yellow-500 text-white text-xs px-3 py-1 rounded-full font-semibold mb-2">UAE</span>
+                        <span class="inline-block bg-light text-white text-xs px-3 py-1 rounded-full font-semibold mb-2">UAE</span>
                         <p class="text-sm text-gray-500">
-                            <i class="fas fa-quote-left mr-2 text-orange-400"></i>
-                            Thanks to Animocare, importing bulk cooking oil has become seamless. They handle everything from sourcing to customs with precision.
+                            <i class="fas fa-quote-left mr-2 text-brand"></i>
+                            Thanks to Animocare Private Limited, importing bulk cooking oil has become seamless. They handle everything from sourcing to customs with precision.
                         </p>
                         <h2 class="text-base font-semibold mt-2">Fatima Al Zarooni</h2>
                         <p class="text-sm text-gray-500">Procurement Head, Green Basket</p>
@@ -390,10 +390,10 @@ include 'includes/nav.php';
                 <div class="flex gap-5 items-start">
                     <img src="/public/assets/images/profile.jpeg" alt="Client Image" class="rounded-xl w-44 h-44 object-cover">
                     <div class="flex-1">
-                        <span class="inline-block bg-yellow-500 text-white text-xs px-3 py-1 rounded-full font-semibold mb-2">Germany</span>
+                        <span class="inline-block bg-light text-white text-xs px-3 py-1 rounded-full font-semibold mb-2">Germany</span>
                         <p class="text-sm text-gray-500">
-                            <i class="fas fa-quote-left mr-2 text-orange-400"></i>
-                            We’ve been importing organic fertilizers through Animocare for two seasons now. Their product quality and compliance process are outstanding.
+                            <i class="fas fa-quote-left mr-2 text-brand"></i>
+                            We’ve been importing organic fertilizers through Animocare Private Limited for two seasons now. Their product quality and compliance process are outstanding.
                         </p>
                         <h2 class="text-base font-semibold mt-2">Johann Müller</h2>
                         <p class="text-sm text-gray-500">CEO, EuroFresh GmbH</p>
@@ -404,10 +404,10 @@ include 'includes/nav.php';
                 <div class="flex gap-5 items-start">
                     <img src="/public/assets/images/profile.jpeg" alt="Client Image" class="rounded-xl w-44 h-44 object-cover">
                     <div class="flex-1">
-                        <span class="inline-block bg-yellow-500 text-white text-xs px-3 py-1 rounded-full font-semibold mb-2">Kenya</span>
+                        <span class="inline-block bg-light text-white text-xs px-3 py-1 rounded-full font-semibold mb-2">Kenya</span>
                         <p class="text-sm text-gray-500">
-                            <i class="fas fa-quote-left mr-2 text-orange-400"></i>
-                            Animocare ensures timely delivery of food grains every shipment. Their warehousing and cold chain capabilities are a real asset.
+                            <i class="fas fa-quote-left mr-2 text-brand"></i>
+                            Animocare Private Limited ensures timely delivery of food grains every shipment. Their warehousing and cold chain capabilities are a real asset.
                         </p>
                         <h2 class="text-base font-semibold mt-2">Grace Mwangi</h2>
                         <p class="text-sm text-gray-500">Operations Manager, AgroLink Exports</p>

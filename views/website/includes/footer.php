@@ -4,9 +4,9 @@
     </div>
     <div class="relative z-10 w-[80%] mx-auto py-12">
         <div class="flex items-center justify-between mb-12">
-            <div class="flex items-center space-x-3">
+            <div class="flex items-center">
                 <!-- <img src="your-logo.png" alt="Logo" class="h-14"> -->
-                <h1 class="text-8xl font-bold text-white/90">Animocare</h1>
+                <h1 class="lg:text-8xl md:text-6xl text-3xl font-bold text-white/90">Animocare <span class="text-lg">Private Limited</span></h1>
             </div>
             <div class="flex flex-col gap-4 max-w-sm">
                 <p class=" text-sm text-gray-300">
@@ -26,7 +26,7 @@
                 <h3 class="font-semibold text-white mb-4">Sign Up For Newsletter</h3>
                 <form class="flex flex-col space-y-4">
                     <input type="email" placeholder="Email address.." class="w-[70%] bg-transparent border-b border-gray-600 py-2 text-gray-300 focus:outline-none">
-                    <button class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold py-2 px-5 rounded-full w-fit">
+                    <button class="bg-gradient-to-r from-brand to-light text-white font-semibold py-2 px-5 rounded-full w-fit">
                         Subscribe Us →
                     </button>
                 </form>
@@ -50,22 +50,22 @@
             </div>
             <div class="space-y-4 text-sm">
                 <p class="flex items-start gap-2">
-                    <span class="text-yellow-400 text-lg"><i class="fas fa-phone"></i></span>
-                    <a href="tel:+0844560789" class="font-semibold">+022-22640051  </a>
+                    <span class="text-light text-lg"><i class="fas fa-phone"></i></span>
+                    <a href="tel:+0844560789" class="">+022-22640051  </a>
                 </p>
                 <p class="flex items-start gap-2">
-                    <span class="text-yellow-400 text-lg"><i class="fas fa-envelope"></i></span>
-                    <a href="mailto:info@animocare.com" class="font-semibold">info@animocare.com</a>
+                    <span class="text-light text-lg"><i class="fas fa-envelope"></i></span>
+                    <a href="mailto:info@animocare.com" class="">info@animocare.com</a>
                 </p>
                 <p class="flex items-start gap-2">
-                    <span class="text-yellow-400 text-lg"><i class="fas fa-location-dot"></i></span>
-                    1, Bloor Street West, Mumbai, Maharashtra, <br> India
+                    <span class="text-light text-lg"><i class="fas fa-location-dot"></i></span>
+                   303-304 Natwar Chambers, 94 Nagindas <br> Master Road, Fort, Mumbai 400023
                 </p>
             </div>
         </div>
         <div class="border-t border-gray-700 mt-10 pt-6 flex items-center justify-between text-sm text-gray-400">
             <div>
-                © Copyright <?= date('Y') ?> Animocare Privacy Limited. All rights reserved.
+                © Copyright <?= date('Y') ?> Animocare Private Limited. All rights reserved.
             </div>
             <div>
                 <a href="/terms-and-conditions" class="hover:text-white">Terms & Conditions</a> | <a href="/privacy-policy" class="hover:text-white">Privacy Policy</a>
@@ -93,7 +93,7 @@
     <div class="fixed bottom-4 right-4 z-50">
         <button
             id="scrollButton"
-            class="w-12 h-12 bg-orange-500 hover:bg-orange-600 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center opacity-0 pointer-events-none">
+            class="w-12 h-12 bg-brand hover:bg-brand text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center opacity-0 pointer-events-none">
             <i id="scrollIcon" class="fas fa-arrow-down"></i>
         </button>
     </div>

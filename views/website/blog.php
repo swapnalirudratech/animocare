@@ -10,11 +10,11 @@ include 'includes/nav.php';
         <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 
         <div class="relative z-10 max-w-3xl px-6 lg:px-20">
-            <h1 class="text-5xl md:text-6xl font-bold text-white leading-tight mb-3">
-                Animocare <span class="text-orange-400">Blog</span>
+            <h1 class="lg:text-5xl md:text-4xl text-3xl font-bold text-white leading-tight mb-3">
+                Animocare Private Limited <span class="text-brand">Blog</span>
             </h1>
             <p class="mt-6 text-base text-gray-200">
-                Discover the latest news, tips, and stories from Animocare. Learn about global import-export trends, industry insights, and best practices for international trade.
+                Discover the latest news, tips, and stories from Animocare Private Limited. Learn about global import-export trends, industry insights, and best practices for international trade.
             </p>
         </div>
     </section>
@@ -22,8 +22,8 @@ include 'includes/nav.php';
     <!-- <div class="w-[80vw] mx-auto border-b border-gray-200 pt-10 pb-6 flex items-center justify-between">
         <h2 class="text-3xl font-semibold text-gray-900">Latest Blogs</h2>
         <div class="flex rounded-md ">
-            <input type="text" placeholder="Search..." class="w-full border border-gray-300 rounded-l-md px-4 py-2 focus:outline-none focus:ring-1 focus:ring-orange-400">
-            <span class="items-center justify-center border border-orange-400 flex bg-orange-400 text-white rounded-r-md  px-4 py-2"><i class="fas fa-search"></i></span>
+            <input type="text" placeholder="Search..." class="w-full border border-gray-300 rounded-l-md px-4 py-2 focus:outline-none focus:ring-1 focus:ring-brand">
+            <span class="items-center justify-center border border-brand flex bg-brand text-white rounded-r-md  px-4 py-2"><i class="fas fa-search"></i></span>
         </div>
 
     </div> -->
@@ -63,8 +63,8 @@ include 'includes/nav.php';
     <!-- Sidebar -->
     <aside class="space-y-10 lg:sticky lg:top-20 self-start">
         <div class="bg-gray-100 flex rounded-md p-8">
-            <input type="text" placeholder="Search..." class="w-full border border-gray-300 rounded-l-md px-4 py-2 focus:outline-none focus:ring-1 focus:ring-orange-400">
-            <span class="items-center justify-center border border-orange-400 flex bg-orange-400 text-white rounded-r-md px-4 py-2">
+            <input type="text" placeholder="Search..." class="w-full border border-gray-300 rounded-l-md px-4 py-2 focus:outline-none focus:ring-1 focus:ring-brand">
+            <span class="items-center justify-center border border-brand flex bg-brand text-white rounded-r-md px-4 py-2">
                 <i class="fas fa-search"></i>
             </span>
         </div>
