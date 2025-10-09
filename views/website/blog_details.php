@@ -5,7 +5,7 @@ include 'includes/nav.php';
 ?>
 
 <body class="overflow-x-hidden">
-    <section class="relative h-[60vh] flex items-center justify-start bg-cover bg-center" style="background-image: url('/public/assets/images/bgblog.jpg');">
+    <section class="relative h-screen flex items-center justify-start bg-cover bg-center" style="background-image: url('/public/assets/images/blog.jpg');">
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 
@@ -21,7 +21,7 @@ include 'includes/nav.php';
 
 
     <!-- Main Content -->
-    <section class="w-[90vw] max-md:w-full items-center justify-center mx-auto px-6 md:px-8 py-12">
+    <section class="w-[85vw] max-md:w-full items-center justify-center mx-auto py-12">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <!-- Main Blog Posts (2/3 width) -->
             <div class="lg:col-span-2">
@@ -83,34 +83,33 @@ include 'includes/nav.php';
                             $url = strtolower($url);
                         ?>
                             <div
-                                class="bg-white  rounded-lg overflow-hidden p-2 border border-gray-200 hover:shadow-lg transition">
+                                class="bg-white flex  rounded-lg overflow-hidden p-2 border border-gray-200 hover:shadow-lg transition">
                                 <img src="/<?= $blog['blog_img'] ?>" alt="Blog Image"
-                                    class="w-full h-48 object-cover rounded">
+                                    class="w-[36%] h-full object-cover rounded">
 
                                 <div class="p-4 flex flex-col justify-between h-auto">
                                     <div>
                                         <p class="text-xs text-gray-600 mb-2">
                                             <i class="far fa-calendar-alt mr-1 text-red-500"></i><?= $blog['blog_date'] ?>
                                         </p>
-                                        <h3 class="text-lg font-semibold text-gray-800 mb-2 capitalize">
+                                        <h3 class="text-sm text-gray-800 mb-2 capitalize">
                                             <?= $blog['blog_title'] ?>
                                         </h3>
-                                        <p class="text-sm text-gray-600 mb-3">
+                                        <!-- <p class="text-sm text-gray-600 mb-3">
                                             <?= mb_strimwidth(strip_tags($blog['blog_description']), 0, 100, '...') ?>
-                                        </p>
+                                        </p> -->
                                     </div>
 
                                     <div class="flex justify-between items-center w-full">
                                         <!-- Read More Link -->
-                                        <a href="/<?= $url ?>"
-                                            class="text-blue-600 text-sm font-medium">
-                                            Read More
+                                        <a href="/blog-details/<?= $url ?>" class="inline-flex text-xs items-center text-orange-500 font-medium hover:underline">
+                                            Read More <i class="fas fa-arrow-right ml-2"></i>
                                         </a>
 
                                         <!-- Share Button -->
                                         <button
                                             onclick="shareBlog('<?= $blog['blog_title'] ?>', window.location.origin + '/blog-details')"
-                                            class="flex items-center text-blue-600 h-10 w-10 rounded-full bg-blue-100 items-center justify-center hover:text-blue-700 text-base font-medium">
+                                            class="flex items-center text-blue-600 h-6 w-6 rounded-full bg-blue-100 items-center justify-center hover:text-blue-700 text-sm font-medium">
                                             <i class="fas fa-share-alt mr-1"></i>
                                         </button>
                                     </div>

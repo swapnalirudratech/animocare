@@ -19,10 +19,10 @@
 
     <div class="wrapper">
 
-        <style>
+           <style>
             /* Base styles */
             .content-wrapper {
-                background-color: #f8f8f8;
+                background-color: #f5f5f4;
             }
 
             .content-header {
@@ -57,7 +57,7 @@
 
             /* Button styles */
             .btn-primary1 {
-                background-color: #1F3D2B;
+                background-color: #1e40af;
                 border: none;
                 color: white;
                 padding: 8px 16px;
@@ -66,7 +66,7 @@
             }
 
             .btn-primary1:hover {
-                background-color: #7D9A87;
+                background-color: #1e40af;
                 color: white;
             }
 
@@ -89,13 +89,13 @@
 
             /* Table header */
             .table thead {
-                background-color: #1F3D2B;
+                background-color: rgb(223, 240, 253);
             }
 
             .table th {
                 padding: 12px 16px;
                 text-align: left;
-                color: #fff;
+                color: #433f3b;
                 font-weight: 600;
                 font-size: 13px;
                 text-transform: uppercase;
@@ -174,20 +174,16 @@
             }
         </style>
 
-        <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper h-auto">
             <div class="content-header">
                 <div class="container-fluid">
                     <main class="max-w-full mx-auto md:p-4 lg:p-6 max-md:p-2">
 
                         <div class="card" style="border-radius: 6px !important;">
-                            <div class="card-header" style="background-color:#1F3D2B;">
+                            <div class="card-header" style="background-color:#294ab8;">
                                 <div class="flex justify-between">
                                     <h3 class="card-title pt-2 text-lg !font-bold !text-[#ffffff]"><?= $pageTitle ?>
                                     </h3>
-                                    <!-- <span class="btn btn-primary1"
-                                        onclick="window.location.href='/newsletter/newsletter-list'">
-                                        <i class="fa fa-bars mr-2"></i>Newsletter List</span> -->
                                 </div>
                             </div>
                             <div class="card-body">
@@ -210,7 +206,7 @@
                                             <!-- Submit Button -->
                                             <div class="text-right flex items-end justify-end">
                                                 <button type="submit"
-                                                    class="bg-[#1F3D2B] hover:bg-green-700 text-white font-semibold px-6 py-2 rounded-lg shadow transition">
+                                                    class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-2 rounded-lg shadow transition">
                                                     Add
                                                 </button>
                                             </div>

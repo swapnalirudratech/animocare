@@ -5,7 +5,8 @@ include 'includes/nav.php';
 ?>
 
 <body class="overflow-x-hidden">
-    <section class="relative h-screen flex items-center justify-start bg-cover bg-center" style="background-image: url('/public/assets/images/bgteam.jpg');">
+    <section class="relative h-screen flex items-center justify-start bg-cover bg-center"
+        style="background-image: url('/public/assets/images/team.jpg');">
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 
@@ -82,7 +83,7 @@ include 'includes/nav.php';
                         <h3
                             class="text-xl font-semibold text-gray-900 group-hover:text-brand-orange transition-colors duration-300">
                             Demon Cats</h3>
-                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Designer</p>
+                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
                 </div>
             </div>
@@ -128,9 +129,8 @@ include 'includes/nav.php';
                     <div class="text-left">
                         <h3
                             class="text-xl font-semibold text-gray-900 group-hover:text-brand-orange transition-colors duration-300">
-                            Sammy Flaws</h3>
-                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">UX Designer
-                        </p>
+                            Demon Cats</h3>
+                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
                 </div>
             </div>
@@ -176,8 +176,8 @@ include 'includes/nav.php';
                     <div class="text-left">
                         <h3
                             class="text-xl font-semibold text-gray-900 group-hover:text-brand-orange transition-colors duration-300">
-                            Emily Carter</h3>
-                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Developer</p>
+                            Demon Cats</h3>
+                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
                 </div>
             </div>
@@ -223,8 +223,8 @@ include 'includes/nav.php';
                     <div class="text-left">
                         <h3
                             class="text-xl font-semibold text-gray-900 group-hover:text-brand-orange transition-colors duration-300">
-                            Simon Cyrene</h3>
-                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Designer</p>
+                            Demon Cats</h3>
+                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
                 </div>
             </div>
@@ -270,8 +270,8 @@ include 'includes/nav.php';
                     <div class="text-left">
                         <h3
                             class="text-xl font-semibold text-gray-900 group-hover:text-brand-orange transition-colors duration-300">
-                            Paul Flawus</h3>
-                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Developer</p>
+                            Demon Cats</h3>
+                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
                 </div>
             </div>
@@ -317,8 +317,8 @@ include 'includes/nav.php';
                     <div class="text-left">
                         <h3
                             class="text-xl font-semibold text-gray-900 group-hover:text-brand-orange transition-colors duration-300">
-                            Melissa Doe</h3>
-                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Analyst</p>
+                            Demon Cats</h3>
+                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
                 </div>
             </div>

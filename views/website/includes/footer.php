@@ -37,37 +37,38 @@
                     <li><a href="/services" class="hover:text-white">Services</a></li>
                     <!-- <li><a href="#" class="hover:text-white">Pricing</a></li> -->
                     <li><a href="/blog" class="hover:text-white">Blog</a></li>
-                    <li><a href="/contact" class="hover:text-white">Contact us</a></li>
+                    <!-- <li><a href="/contact" class="hover:text-white">Contact us</a></li> -->
                 </ul>
                 <ul class="space-y-3 text-sm">
                     <li><a href="/our-team" class="hover:text-white">Our Team</a></li>
+                     <li><a href="/contact" class="hover:text-white">Contact us</a></li>
                     <li><a href="/faq" class="hover:text-white">F.A.Q</a></li>
-                    <li><a href="/privacy-policy" class="hover:text-white">Privacy Policy</a></li>
-                    <li><a href="/customer-feedback" class="hover:text-white">Feedbacks</a></li>
+                    <!-- <li><a href="/privacy-policy" class="hover:text-white">Privacy Policy</a></li> -->
+                    <!-- <li><a href="/customer-feedback" class="hover:text-white">Feedbacks</a></li> -->
                     <!-- <li><a href="#" class="hover:text-white">Careers</a></li> -->
                 </ul>
             </div>
             <div class="space-y-4 text-sm">
                 <p class="flex items-start gap-2">
                     <span class="text-yellow-400 text-lg"><i class="fas fa-phone"></i></span>
-                    <a href="tel:+0844560789" class="font-semibold">+(084) 456-0789</a>
+                    <a href="tel:+0844560789" class="font-semibold">+022-22640051  </a>
                 </p>
                 <p class="flex items-start gap-2">
                     <span class="text-yellow-400 text-lg"><i class="fas fa-envelope"></i></span>
-                    <a href="mailto:support@example.com" class="font-semibold">support@example.com</a>
+                    <a href="mailto:info@animocare.com" class="font-semibold">info@animocare.com</a>
                 </p>
                 <p class="flex items-start gap-2">
                     <span class="text-yellow-400 text-lg"><i class="fas fa-location-dot"></i></span>
-                    5609 E Sprague Ave, Spokane Valley,<br> WA 99212, USA
+                    1, Bloor Street West, Mumbai, Maharashtra, <br> India
                 </p>
             </div>
         </div>
         <div class="border-t border-gray-700 mt-10 pt-6 flex items-center justify-between text-sm text-gray-400">
             <div>
-                © Copyright <?= date('Y') ?> Animocare. All rights reserved.
+                © Copyright <?= date('Y') ?> Animocare Privacy Limited. All rights reserved.
             </div>
             <div>
-                <a href="#" class="hover:text-white">Terms & Conditions</a> | <a href="#" class="hover:text-white">Privacy Policy</a>
+                <a href="/terms-and-conditions" class="hover:text-white">Terms & Conditions</a> | <a href="/privacy-policy" class="hover:text-white">Privacy Policy</a>
             </div>
         </div>
     </div>
@@ -75,7 +76,7 @@
     <!-- Floating Action Button -->
     <div class="fixed top-1/2 right-0 transform -translate-y-1/2 flex flex-col gap-2 z-50">
         <a
-            href="tel:+1234567890"
+            href="tel:+022-22640051"
             class="w-12 h-12 bg-blue-500 hover:bg-blue-600 text-white rounded-l-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center"
             aria-label="Call Us">
             <i class="fa-solid fa-phone text-xl"></i>

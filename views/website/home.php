@@ -85,7 +85,7 @@ include 'includes/nav.php';
             </div>
 
             <div class="text-center mt-10">
-                <p class="text-orange-500 font-semibold text-sm uppercase">Since 2007</p>
+                <!-- <p class="text-orange-500 font-semibold text-sm uppercase">Since 2007</p> -->
                 <h2 class="text-3xl md:text-4xl font-bold mt-2 leading-snug w-[70%] mx-auto">
                     Animocare delivers premium-quality goods worldwide — from food and edible oils to fertilizers and agro-products, with certified safety and seamless logistics.
                 </h2>
@@ -132,7 +132,7 @@ include 'includes/nav.php';
                 </ul>
 
                 <div class="mt-8">
-                    <a href="#" class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">View More →</a>
+                    <a href="/about" class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">View More →</a>
                 </div>
             </div>
 
@@ -211,7 +211,7 @@ include 'includes/nav.php';
             </div>
 
             <div class="mt-12">
-                <a href="#" class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">
+                <a href="/services" class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">
                     See All Services →
                 </a>
             </div>
@@ -339,7 +339,7 @@ include 'includes/nav.php';
 
 
 
-    <section class="w-full h-auto py-16 flex items-center justify-center">
+    <section class="w-full h-auto py-16 flex items-center justify-center hidden">
         <div class="flex gap-10 w-[80%] mx-auto">
 
             <!-- Left Column (Sticky Header) -->

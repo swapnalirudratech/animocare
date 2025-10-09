@@ -371,7 +371,7 @@
             "GET",
             "POST"
         ],
-        "path": "/blog/[*:id]",
+        "path": "/blog-details/[*:id]",
         "controller": "WebsiteController@blogDetails"
     }
 ]

@@ -5,9 +5,12 @@ include 'includes/nav.php';
 ?>
 
 <body>
-    <div>
-        <h1 class="text-5xl font-semibold text-center text-gray-900 my-10">Frequently Asked Questions</h1>
+     <div class="w-full bg-gray-900 h-[50vh] items-center justify-center flex">
+        <h1 class="text-5xl font-semibold text-center text-white">Frequently Asked Questions</h1>
     </div>
+    <!-- <div>
+        <h1 class="text-5xl font-semibold text-center text-gray-900 my-10">Frequently Asked Questions</h1>
+    </div> -->
     <section class="w-full mx-auto py-16 max-md:py-8">
         <div class="w-[70vw] mx-auto flex flex-col items-center justify-center">
             <!-- <div class="w-full">

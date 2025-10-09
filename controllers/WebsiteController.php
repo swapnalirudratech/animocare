@@ -56,6 +56,7 @@ class WebsiteController extends LoginController
         if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 
             $blogs = $this->getData2("SELECT * FROM blogs ORDER BY blog_date DESC");
+            $tags = $this->getData2("SELECT * FROM blog_category");
             // printWithPre($blogs);
             // die();
 
@@ -157,11 +158,11 @@ class WebsiteController extends LoginController
     public function terms()
     {
         $siteName = getDBObject()->getSiteName();
-        $pageTitle = "terms_conditions";
+        $pageTitle = "terms-condition";
         // $this->checkSession();
         if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 
-            require 'views/website/terms_conditions.php';
+            require 'views/website/terms_condition.php';
         }
     }
 
