@@ -3,9 +3,9 @@
 class Database
 {
     // private $host = "localhost";
-    // private $dbname = "";
-    // private $username = "";
-    // private $password = "";
+    // private $dbname = "u597096203_animocare";
+    // private $username = "u597096203_animocare";
+    // private $password = "|j4OtaY2";
 
     private $host = "localhost";
     private $dbname = "animocare";
