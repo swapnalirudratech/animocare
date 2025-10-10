@@ -1,7 +1,7 @@
 <header class="absolute top-0 left-0 w-full z-20 border-b border-gray-400">
     <nav class="flex items-center justify-between px-6 lg:px-20 py-2.5">
        <a href="/" class="flex items-center space-x-2">
-         <img src="/public/assets/images/logo2.jpg" alt="Logo" class="w-auto h-16 rounded">
+         <img src="/public/assets/images/logo2.jpg" alt="Logo" class="w-auto h-20 rounded">
          <!-- <div class="text-3xl font-bold text-brand">Animocare <span class="text-base">Private Limited</span></div> -->
        </a>
 
