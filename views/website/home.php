@@ -112,23 +112,24 @@ include 'includes/nav.php';
                     Solutions
                 </h2>
                 <p class="mt-3 text-gray-600 text-base leading-relaxed">
-                    <span class="font-semibold">Animocare Private Limited</span> has been at the forefront of international trade—connecting global markets with top-quality products.
-                    Specializing in the export and import of food items, edible oils, fertilizers, and other agricultural commodities, we ensure safe, timely, and efficient delivery across borders.
+                    <span class="font-semibold">Animocare Private Limited</span> is an established enterprise engaged in international trade, with a strong focus on the export and import of food products, edible oils, fertilizers, and other agricultural commodities. Our objective is to facilitate seamless cross-border commerce by delivering products that meet the highest standards of quality, safety, and reliability.
                 </p>
+
+                <p class="mt-3 text-gray-600 text-base font-semibold">Our Strengths</p>
 
                 <ul class="mt-3 space-y-3">
                     <li class="flex items-start">
                         <span class="text-brand text-base mr-3">✔</span>
-                        <span>Serving clients in over 50 countries with a reliable global network</span>
+                        <span>Global Reach – Serving clients across more than 50 countries through a robust international network</span>
                     </li>
                     <li class="flex items-start">
                         <span class="text-brand text-base mr-3">✔</span>
-                        <span>Expert handling of customs, compliance, and documentation</span>
+                        <span>Operational Expertise – Comprehensive handling of logistics, customs procedures, compliance, and documentation</span>
                     </li>
-                    <li class="flex items-start">
+                    <!-- <li class="flex items-start">
                         <span class="text-brand text-base mr-3">✔</span>
                         <span>Committed to sustainability, ethical sourcing, and quality assurance</span>
-                    </li>
+                    </li> -->
                 </ul>
 
                 <div class="mt-8">

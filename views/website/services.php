@@ -71,7 +71,7 @@ include 'includes/nav.php';
             </div>
 
             <!-- Card 3 -->
-            <div class="bg-white h-full rounded-2xl shadow-sm p-6 hover:shadow-lg transition flex flex-col justify-between">
+            <!-- <div class="bg-white h-full rounded-2xl shadow-sm p-6 hover:shadow-lg transition flex flex-col justify-between">
                 <div>
                     <div class="flex items-center justify-between mb-6">
                         <h3 class="text-2xl font-semibold">Warehousing & Distribution</h3>
@@ -84,7 +84,7 @@ include 'includes/nav.php';
                     </p>
                 </div>
                 <img src="/public/assets/images/s3.jpg" alt="Warehousing" class="rounded-xl h-56 w-full object-cover mt-auto" />
-            </div>
+            </div> -->
 
             <!-- Card 4 -->
             <div class="bg-white h-full rounded-2xl shadow-sm p-6 hover:shadow-lg transition flex flex-col justify-between">

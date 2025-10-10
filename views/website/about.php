@@ -38,8 +38,12 @@ include 'includes/nav.php';
           Building Global Trade <br> with Trust & Excellence
         </h2>
         <p class="text-gray-600 mb-6">
-          At <strong>Animocare Private Limited</strong>, we specialize in the import and export of food commodities, edible oils, fertilizers, and more.
-          With our vast global network and strong compliance practices, we connect suppliers and buyers with efficiency, transparency, and care.
+          At <strong>Animocare Private Limited</strong>, we are dedicated to enabling seamless international commerce by specializing in the import and export of food commodities, edible oils, fertilizers, and allied products. With a strong global network and robust compliance practices, we connect suppliers and buyers across borders with efficiency, transparency, and care.
+        </p>
+
+        <p class=" text-brand font-semibold uppercase mb-3 flex items-center gap-2">
+          Our Business Divisions
+
         </p>
 
         <!-- Feature 1 -->
@@ -50,7 +54,7 @@ include 'includes/nav.php';
           <div>
             <h4 class="font-bold text-lg">Agri & Food Trade</h4>
             <p class="text-gray-600 text-sm">
-              We handle grains, pulses, edible oils, and other agri-products with proper certifications and cold chain logistics.
+              We source and supply grains, pulses, edible oils, and a wide range of agricultural products, backed by proper certifications, food safety protocols, and cold chain logistics.
             </p>
           </div>
         </div>
@@ -61,9 +65,9 @@ include 'includes/nav.php';
             <i class="fas fa-industry"></i>
           </div>
           <div>
-            <h4 class="font-bold text-lg">Fertilizer & Industrial Supply</h4>
+            <h4 class="font-bold text-lg">Fertilizer & Industrial Supplies</h4>
             <p class="text-gray-600 text-sm">
-              Supplying high-grade fertilizers and related products that meet regulatory and quality standards for global markets.
+              We deliver high-grade fertilizers and related products that adhere to international quality and regulatory standards, supporting sustainable agricultural and industrial growth.
             </p>
           </div>
         </div>
@@ -186,8 +190,7 @@ include 'includes/nav.php';
           <div>
             <h3 class="text-xl font-bold mb-2">01. Humble Beginnings</h3>
             <p class="text-gray-600 mb-2">
-              Animocare Private Limited was founded with a vision to revolutionize the import-export industry. What started as a small operation has now grown into a global network.
-            </p>
+              Founded with a vision to transform the import-export landscape, Animocare Private Limited began as a modest operation committed to integrity and service excellence. </p>
             <!-- <a href="#" class="text-sm text-brand font-semibold hover:underline transition">Read More →</a> -->
           </div>
         </div>
@@ -210,8 +213,7 @@ include 'includes/nav.php';
           <div>
             <h3 class="text-xl font-bold mb-2">02. Expanding Our Reach</h3>
             <p class="text-gray-600 mb-2">
-              Through strategic partnerships and an unwavering focus on quality, we expanded into new markets — connecting producers and buyers across continents.
-            </p>
+              Through strategic partnerships and an unwavering focus on quality, we steadily grew into new markets, bridging producers and buyers across continents. </p>
             <!-- <a href="#" class="text-sm text-brand font-semibold hover:underline transition">Read More →</a> -->
           </div>
         </div>
@@ -234,8 +236,7 @@ include 'includes/nav.php';
           <div>
             <h3 class="text-xl font-bold mb-2">03. Animocare Private Limited Today</h3>
             <p class="text-gray-600 mb-2">
-              Today, Animocare Private Limited stands as a trusted name in international trade — known for ethical sourcing, transparent logistics, and a commitment to excellence.
-            </p>
+              Animocare Private Limited working hard to be recognized as a trusted name in international trade—known for ethical sourcing, transparent logistics, and an uncompromising commitment to excellence. </p>
             <!-- <a href="#" class="text-sm text-brand font-semibold hover:underline transition">Read More →</a> -->
           </div>
         </div>
