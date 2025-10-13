@@ -3,10 +3,10 @@
         <img src="/public/assets/images/footer.jpg" alt="Footer Background" class="w-full h-full object-cover opacity-20">
     </div>
     <div class="relative z-10 w-[80%] mx-auto py-12">
-        <div class="flex items-center justify-between mb-12">
-            <div class="flex items-center">
+        <div class="flex max-md:flex-col items-center justify-between mb-12">
+            <div class="flex items-center max-md:items-start">
                 <!-- <img src="your-logo.png" alt="Logo" class="h-14"> -->
-                <h1 class="lg:text-8xl md:text-6xl text-3xl font-bold text-white/90">Animocare <span class="text-lg">Private Limited</span></h1>
+                <h1 class="lg:text-8xl md:text-6xl text-3xl font-bold max-md:text-left text-white/90">Animocare <br class="md:hidden"> <span class="text-lg">Private Limited</span></h1>
             </div>
             <div class="flex flex-col gap-4 max-w-sm">
                 <p class=" text-sm text-gray-300">
@@ -41,7 +41,7 @@
                 </ul>
                 <ul class="space-y-3 text-sm">
                     <li><a href="/our-team" class="hover:text-white">Our Team</a></li>
-                     <li><a href="/contact" class="hover:text-white">Contact us</a></li>
+                    <li><a href="/contact" class="hover:text-white">Contact us</a></li>
                     <li><a href="/faq" class="hover:text-white">F.A.Q</a></li>
                     <!-- <li><a href="/privacy-policy" class="hover:text-white">Privacy Policy</a></li> -->
                     <!-- <li><a href="/customer-feedback" class="hover:text-white">Feedbacks</a></li> -->
@@ -51,7 +51,7 @@
             <div class="space-y-4 text-sm">
                 <p class="flex items-start gap-2">
                     <span class="text-light text-lg"><i class="fas fa-phone"></i></span>
-                    <a href="tel:+0844560789" class="">+022-22640051  </a>
+                    <a href="tel:+0844560789" class="">+022-22640051 </a>
                 </p>
                 <p class="flex items-start gap-2">
                     <span class="text-light text-lg"><i class="fas fa-envelope"></i></span>
@@ -59,12 +59,12 @@
                 </p>
                 <p class="flex items-start gap-2">
                     <span class="text-light text-lg"><i class="fas fa-location-dot"></i></span>
-                   303-304 Natwar Chambers, 94 Nagindas <br> Master Road, Fort, Mumbai 400023
+                    303-304 Natwar Chambers, 94 Nagindas <br> Master Road, Fort, Mumbai 400023
                 </p>
             </div>
         </div>
-        <div class="border-t border-gray-700 mt-10 pt-6 flex items-center justify-between text-sm text-gray-400">
-            <div>
+        <div class="border-t border-gray-700 mt-10 pt-6 flex max-md:flex-col max-md:text-center items-center justify-between text-sm text-gray-400">
+            <div class="max-md:mb-4">
                 © Copyright <?= date('Y') ?> Animocare Private Limited. All rights reserved.
             </div>
             <div>

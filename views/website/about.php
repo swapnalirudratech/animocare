@@ -6,7 +6,7 @@ include 'includes/nav.php';
 
 <body class="overflow-x-hidden">
 
-  <section class="relative h-screen flex items-center justify-start bg-cover bg-center" style="background-image: url('/public/assets/images/abt.jpg');">
+  <section class="relative h-screen max-md:h-[70vh] flex items-center justify-start bg-cover bg-center" style="background-image: url('/public/assets/images/abt.jpg');">
     <div class="absolute inset-0 bg-black bg-opacity-60"></div>
     <div class="relative z-10 max-w-3xl px-6 lg:px-20">
       <h1 class="lg:text-5xl md:text-4xl text-3xl font-bold text-white leading-tight">

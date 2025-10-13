@@ -5,7 +5,7 @@ include 'includes/nav.php';
 ?>
 
 <body class="overflow-x-hidden">
-    <section class="relative h-screen flex items-center justify-start bg-cover bg-center"
+    <section class="relative h-screen max-md:h-[70vh] flex items-center justify-start bg-cover bg-center"
         style="background-image: url('/public/assets/images/contactbg.jpg');">
         <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 

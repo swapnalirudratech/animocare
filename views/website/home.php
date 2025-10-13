@@ -6,21 +6,21 @@ include 'includes/nav.php';
 
 <body class="overflow-x-hidden">
     <!-- Hero Section -->
-    <section class="relative h-screen flex items-center justify-start bg-cover bg-center" style="background-image: url('/public/assets/images/banner2.png');">
+    <section class="relative h-screen max-md:h-[70vh] flex items-center justify-start bg-cover bg-center" style="background-image: url('/public/assets/images/banner2.png');">
         <!-- Overlay -->
         <div class="absolute inset-0 bg-black bg-opacity-60"></div>
         <div class="relative z-10 max-w-3xl px-6 lg:px-20">
-            <h1 class="lg:text-5xl md:text-4xl text-3xl font-bold text-white leading-tight">
-                <div class="mb-3">Animocare Private Limited</div>
-                <div class="mb-3 text-brand">Import & Export</div>
+            <h1 class="lg:text-5xl md:text-4xl text-xl font-bold text-white leading-tight">
+                <div class="md:mb-3">Animocare Private Limited</div>
+                <div class="md:mb-3 text-brand">Import & Export</div>
                 <div>Global Solutions</div>
             </h1>
-            <p class="mt-6 text-base text-gray-200">
+            <p class="mt-6 text-base text-gray-200 max-md:hidden">
                 At Animocare Private Limited, we specialize in the international trade of food, edible oils, fertilizers, and more.
                 Committed to quality, reliability, and seamless logistics across the globe.
             </p>
             <div class="mt-8">
-                <a href="/about" class="bg-gradient-to-r from-brand to-light text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">Read More →</a>
+                <a href="/about" class="bg-gradient-to-r from-brand to-light text-white px-6 py-3 max-md:px-4 max-md:py-1 rounded-full text-base max-md:text-sm md:font-semibold shadow-lg hover:opacity-90">Read More →</a>
             </div>
         </div>
     </section>
@@ -29,7 +29,7 @@ include 'includes/nav.php';
         <!-- <img src="/public/assets/images/left-pattern.svg" class="absolute left-0 top-0 h-32 md:h-60" alt="" />
         <img src="/public/assets/images/right-pattern.svg" class="absolute right-0 bottom-0 h-32 md:h-60" alt="" /> -->
 
-        <div class="w-[80%] mx-auto px-6 lg:px-0 relative z-10">
+        <div class="w-[80%] max-md:w-[90%] mx-auto md:px-6 lg:px-0 relative z-10">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-10">
 
                 <!-- Quality Assurance -->
@@ -86,7 +86,7 @@ include 'includes/nav.php';
 
             <div class="text-center mt-10">
                 <!-- <p class="text-brand font-semibold text-sm uppercase">Since 2007</p> -->
-                <h2 class="text-3xl md:text-4xl font-bold mt-2 leading-snug w-[70%] mx-auto">
+                <h2 class="text-lg md:text-4xl font-bold mt-2 leading-snug w-[70%] max-md:w-full mx-auto">
                     Animocare Private Limited delivers premium-quality goods worldwide — from food and edible oils to fertilizers and agro-products, with certified safety and seamless logistics.
                 </h2>
             </div>
@@ -94,9 +94,9 @@ include 'includes/nav.php';
     </section>
 
     <section class="py-20 bg-white relative">
-        <div class="w-[80%] mx-auto grid lg:grid-cols-2 gap-12 items-center">
+        <div class="w-[80%] max-md:w-[90%] mx-auto grid lg:grid-cols-2 gap-12 max-md:gap-6 items-center">
 
-            <div class="h-[80vh] lg:h-[60vh] w-full">
+            <div class="h-[80vh] lg:h-[60vh] max-md:h-[50vh] w-full">
                 <img src="/public/assets/images/22.jpg"
                     alt="Industrial Warehouse"
                     class="rounded-2xl shadow-lg w-full h-full object-cover">
@@ -133,7 +133,7 @@ include 'includes/nav.php';
                 </ul>
 
                 <div class="mt-8">
-                    <a href="/about" class="bg-gradient-to-r from-brand to-light text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">View More →</a>
+                    <a href="/about" class="bg-gradient-to-r from-brand to-light text-white px-6 py-3 max-md:px-4 max-md:py-2 max-md:text-sm rounded-full text-base font-semibold shadow-lg hover:opacity-90">View More →</a>
                 </div>
             </div>
 
@@ -221,7 +221,7 @@ include 'includes/nav.php';
     </section>
 
     <section class="py-20 max-md:pt-10 bg-gray-50 w-full items-center justify-center hidden">
-        <div class="w-[80%] mx-auto">
+        <div class="w-[80%] max-md:w-[90%] mx-auto">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-[#172967]">OUR SERVICES</h2>
                 <div class="w-24 h-1 bg-gradient-to-r from-[#eb8145] via-[#ce3c46] to-[#eb8145] mx-auto mt-4 mb-6 rounded-full">
