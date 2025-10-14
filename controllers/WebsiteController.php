@@ -133,6 +133,17 @@ class WebsiteController extends LoginController
         }
     }
 
+     public function contacteMail()
+    {
+        $siteName = getDBObject()->getSiteName();
+        $pageTitle = "contact email";
+        // $this->checkSession();
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+            require 'views/website/contact_mail.php';
+        }
+    }
+
     public function faq()
     {
         $siteName = getDBObject()->getSiteName();

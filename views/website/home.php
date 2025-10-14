@@ -96,7 +96,7 @@ include 'includes/nav.php';
     <section class="py-20 bg-white relative">
         <div class="w-[80%] max-md:w-[90%] mx-auto grid lg:grid-cols-2 gap-12 max-md:gap-6 items-center">
 
-            <div class="h-[80vh] lg:h-[60vh] max-md:h-[50vh] w-full">
+            <div class="h-[80vh] lg:h-[60vh] max-md:h-[40vh] w-full">
                 <img src="/public/assets/images/22.jpg"
                     alt="Industrial Warehouse"
                     class="rounded-2xl shadow-lg w-full h-full object-cover">
@@ -107,8 +107,8 @@ include 'includes/nav.php';
                     <span class="text-brand">✦</span> About Us
                 </span>
                 <h2 class="text-3xl md:text-4xl font-bold leading-tight mt-2">
-                    Your Trusted Partner for <br>
-                    Global Import & Export <br>
+                    Your Trusted Partner for <br class="max-md:hidden">
+                    Global Import & Export <br class="max-md:hidden">
                     Solutions
                 </h2>
                 <p class="mt-3 text-gray-600 text-base leading-relaxed">
@@ -212,7 +212,7 @@ include 'includes/nav.php';
             </div>
 
             <div class="mt-12">
-                <a href="/services" class="bg-gradient-to-r from-brand to-light text-white px-6 py-3 rounded-full text-base font-semibold shadow-lg hover:opacity-90">
+                <a href="/services" class="bg-gradient-to-r from-brand to-light text-white px-6 py-3 max-md:px-4 max-md:py-2 max-md:text-sm rounded-full text-base md:font-semibold shadow-lg hover:opacity-90">
                     See All Services →
                 </a>
             </div>
@@ -296,10 +296,10 @@ include 'includes/nav.php';
                     </div>
 
                     <!-- Expertise -->
-                    <div class="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between h-[28vh]">
+                    <div class="bg-white rounded-xl p-6 max-md:p-4 shadow-sm flex flex-col justify-between h-[28vh] max-md:h-auto">
                         <div class="flex items-center justify-between">
-                            <h3 class="font-bold text-xl mb-3">Expertise <br> & Experience</h3>
-                            <span class="text-light text-6xl"><i class="fas fa-user-tie"></i></span>
+                            <h3 class="font-bold text-xl max-md:text-lg mb-3">Expertise <br> & Experience</h3>
+                            <span class="text-light text-6xl max-md:text-4xl"><i class="fas fa-user-tie"></i></span>
                         </div>
                         <p class="text-gray-600 mb-4">
                             In international trade, we offer deep market knowledge and seamless cross-border operations.
@@ -307,10 +307,10 @@ include 'includes/nav.php';
                     </div>
 
                     <!-- Cold Chain / Storage -->
-                    <div class="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between h-[28vh]">
+                    <div class="bg-white rounded-xl p-6 max-md:p-4 shadow-sm flex flex-col justify-between h-[28vh] max-md:h-auto">
                         <div class="flex items-center justify-between">
-                            <h3 class="font-bold text-lg mb-3">Cold Chain <br> & Warehousing</h3>
-                            <span class="text-light text-6xl"><i class="fas fa-snowflake"></i></span>
+                            <h3 class="font-bold text-xl max-md:text-lg mb-3">Cold Chain <br> & Warehousing</h3>
+                            <span class="text-light text-6xl max-md:text-4xl"><i class="fas fa-snowflake"></i></span>
                         </div>
                         <p class="text-gray-600 mb-4">
                             Advanced cold storage and warehousing ensure your perishable and sensitive goods arrive in top condition.
@@ -318,10 +318,10 @@ include 'includes/nav.php';
                     </div>
 
                     <!-- Certifications -->
-                    <div class="bg-white rounded-xl p-6 shadow-sm flex flex-col justify-between h-[28vh]">
+                    <div class="bg-white rounded-xl p-6 max-md:p-4 shadow-sm flex flex-col justify-between h-[28vh] max-md:h-auto">
                         <div class="flex items-center justify-between">
-                            <h3 class="font-bold text-lg mb-3">Global Compliance</h3>
-                            <span class="text-light text-6xl"><i class="fas fa-certificate"></i></span>
+                            <h3 class="font-bold text-xl max-md:text-lg mb-3">Global Compliance</h3>
+                            <span class="text-light text-6xl max-md:text-4xl"><i class="fas fa-certificate"></i></span>
                         </div>
                         <p class="text-gray-600 mb-4">
                             Fully certified operations that meet export-import regulations, food safety laws, and environmental standards.

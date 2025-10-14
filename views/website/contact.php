@@ -10,10 +10,11 @@ include 'includes/nav.php';
         <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 
         <div class="relative z-10 max-w-3xl px-6 lg:px-20">
-            <h1 class="lg:text-5xl md:text-4xl text-3xl font-bold text-white leading-tight">
-                <div class="mb-3">Contact Us</div>
+            <h1 class="lg:text-5xl flex gap-3 md:text-4xl text-3xl font-bold text-white leading-tight">
+                <div class="text-brand mb-3">Contact</div>
+                <div class=""> Us</div>
             </h1>
-            <p class="mt-6 text-base text-gray-200">
+            <p class="mt-6 text-base text-gray-200 max-md:hidden">
                 Have questions about global trade or partnership opportunities? Get in touch with Animocare — your trusted partner in international import and export solutions.
             </p>
         </div>
@@ -22,37 +23,37 @@ include 'includes/nav.php';
     <!-- Contact Section -->
     <section class="w-[60vw] max-md:w-[90vw] mx-auto pb-16 grid md:grid-cols-2 gap-10 items-start py-16">
         <!-- Right Column: Form -->
-        <div class="bg-white border rounded-lg p-8">
+        <div class="bg-white border rounded-lg p-8 max-md:p-6 max-md:order-2">
             <h3 class="text-2xl font-semibold mb-6">Send Your Message</h3>
 
-            <form action="#" method="POST" class="space-y-4">
+            <form id="contactMail" action="/contact-email" method="post" class="space-y-4">
                 <input
-                    type="text"
+                    type="text" name="name" required
                     placeholder="Enter Name"
                     class="w-full border border-gray-300 rounded-md py-2 px-3 focus:ring-1 focus:ring-orange-500 focus:outline-none" />
 
                 <div class="grid grid-cols-2 gap-4">
                     <input
-                        type="email"
+                        type="email" name="email" required
                         placeholder="Email Address"
                         class="border border-gray-300 rounded-md py-2 px-3 focus:ring-1 focus:ring-orange-500 focus:outline-none" />
                     <input
-                        type="tel"
+                        type="tel" name="phone" required
                         placeholder="Phone Number"
                         class="border border-gray-300 rounded-md py-2 px-3 focus:ring-1 focus:ring-orange-500 focus:outline-none" />
                 </div>
 
-                <select
+                <select name="services" required
                     class="w-full border border-gray-300 rounded-md py-2 px-3 focus:ring-1 focus:ring-orange-500 focus:outline-none text-gray-600">
-                    <option>Select Service</option>
-                    <option>Import Assistance</option>
-                    <option>Export Services</option>
-                    <option>Logistics & Warehousing</option>
-                    <option>Compliance Support</option>
+                    <option disabled selected>Select Service</option>
+                    <option value="Import Assistance">Import Assistance</option>
+                    <option value="Export Services">Export Services</option>
+                    <option value="Logistics & Warehousing">Logistics & Warehousing</option>
+                    <option class="Compliance Support">Compliance Support</option>
                 </select>
 
                 <textarea
-                    rows="4"
+                    rows="4" name="message" require
                     placeholder="Message"
                     class="w-full border border-gray-300 rounded-md py-2 px-3 focus:ring-1 focus:ring-orange-500 focus:outline-none"></textarea>
 
@@ -63,7 +64,7 @@ include 'includes/nav.php';
                 </button>
             </form>
         </div>
-        <div>
+        <div class=" max-md:order-1">
             <img src="/public/assets/images/gif2.gif" alt="" class="w-auto h-auto">
         </div>
     </section>
@@ -110,6 +111,78 @@ include 'includes/nav.php';
             </p>
         </div>
     </section>
+
+
+    <div id="toast"
+        class="hidden fixed top-5 right-5 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg transition-opacity duration-300">
+        Thank you! Your message has been sent.
+    </div>
+
+    <style>
+        #toast {
+            display: none;
+            position: fixed;
+            align-items: center;
+            text-align: center;
+            top: 100px;
+            right: 20px;
+            background-color: #38a169;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        #toast.show {
+            display: block;
+            opacity: 1;
+        }
+    </style>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById("contactMail");
+            const toast = document.getElementById("toast");
+
+            form.addEventListener("submit", function (e) {
+                e.preventDefault(); 
+
+                const formData = new FormData(form);
+
+                showToast("Processing... Please wait.", "#3182ce");
+
+                fetch("/contact-email", {
+                    method: "POST",
+                    body: formData
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        const message = data.success ? "Message sent successfully! Thank you!" : "Failed to send message.";
+                        const color = data.success ? "#38a169" : "#e53e3e";
+                        showToast(message, color);
+                    })
+                    .catch(() => {
+                        showToast("Something went wrong. Please try again.", "#e53e3e");
+                    })
+                    .finally(() => {
+                        form.reset();
+                    });
+            });
+
+            function showToast(message, bgColor = "#38a169") {
+                toast.innerText = message;
+                toast.style.backgroundColor = bgColor;
+                toast.classList.add("show");
+
+                setTimeout(() => {
+                    toast.classList.remove("show");
+                }, 3000);
+            }
+        });
+    </script>
+
 
 </body>
 <?php include 'includes/footer.php'; ?>

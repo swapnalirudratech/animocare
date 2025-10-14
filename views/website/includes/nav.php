@@ -34,18 +34,42 @@
     </nav>
 
     <!-- Mobile Sidebar -->
-    <div id="mobile-sidebar" class="fixed top-0 left-0 h-full w-64 bg-gray-800 transform -translate-x-full transition-transform duration-300 ease-in-out z-30">
+    <div id="mobile-sidebar" class="fixed top-0 left-0 h-full w-[80%] bg-gray-800 transform -translate-x-full transition-transform duration-300 ease-in-out z-30">
         <div class="flex justify-between items-center px-6 py-4 border-b border-gray-700">
             <img src="/public/assets/images/logo2.jpg" alt="Logo" class="w-auto max-md:h-12 rounded">
             <button id="sidebar-close" class="text-white focus:outline-none text-2xl">&times;</button>
         </div>
-        <ul class="flex flex-col space-y-4 mt-6 px-6 text-white font-medium">
-            <li><a href="/" class="<?= $page == 'home' ? $activeClass : $defaultClass ?>">Home</a></li>
-            <li><a href="/services" class="<?= $page == 'services' ? $activeClass : $defaultClass ?>">Services</a></li>
-            <li><a href="/about" class="<?= $pageTitle == 'about' ? $activeClass : $defaultClass ?>">About</a></li>
-            <li><a href="/blog" class="<?= $pageTitle == 'blog' ? $activeClass : $defaultClass ?>">Blog</a></li>
-            <li><a href="/contact" class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-4 py-2 rounded-full shadow-lg font-semibold hover:opacity-90 text-base">Contact us</a></li>
+        <ul class="flex flex-col space-y-6 mt-6 px-6 text-white font-medium">
+            <li>
+                <a href="/" class="<?= $page == 'home' ? $activeClass : $defaultClass ?>">
+                    <i class="fas fa-home mr-1"></i> Home
+                </a>
+            </li>
+
+            <li>
+                <a href="/services" class="<?= $page == 'services' ? $activeClass : $defaultClass ?>">
+                    <i class="fas fa-box mr-1"></i> Services
+                </a>
+            </li>
+
+            <li>
+                <a href="/about" class="<?= $pageTitle == 'about' ? $activeClass : $defaultClass ?>">
+                    <i class="fas fa-info-circle mr-1"></i> About
+                </a>
+            </li>
+
+            <li>
+                <a href="/blog" class="<?= $pageTitle == 'blog' ? $activeClass : $defaultClass ?>">
+                    <i class="fas fa-blog mr-1"></i> Blog
+                </a>
+            </li>
+
+
         </ul>
+        <div class="w-full flex mt-8 ml-4">
+            <a href="/contact" class="bg-gradient-to-r from-orange-500 to-yellow-400 text-white px-4 py-2 rounded-full shadow-lg font-semibold hover:opacity-90 text-base">
+                <i class="fas fa-phone mr-1"></i>Contact us</a>
+        </div>
     </div>
 
     <!-- Sidebar Overlay -->

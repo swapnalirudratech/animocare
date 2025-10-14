@@ -9,12 +9,12 @@ include 'includes/nav.php';
   <section class="relative h-screen max-md:h-[70vh] flex items-center justify-start bg-cover bg-center" style="background-image: url('/public/assets/images/abt.jpg');">
     <div class="absolute inset-0 bg-black bg-opacity-60"></div>
     <div class="relative z-10 max-w-3xl px-6 lg:px-20">
-      <h1 class="lg:text-5xl md:text-4xl text-3xl font-bold text-white leading-tight">
+      <h1 class="lg:text-5xl md:text-4xl text-2xl font-bold text-white leading-tight">
         <div>About Animocare Private Limited</div>
         <div class="text-brand">Empowering Global Trade</div>
       </h1>
 
-      <p class="mt-6 text-base text-gray-200">
+      <p class="mt-6 text-base text-gray-200 max-md:hidden">
         Animocare Private Limited is a global import-export company providing quality food products, edible oils, and fertilizers worldwide.
       </p>
 
@@ -73,18 +73,18 @@ include 'includes/nav.php';
         </div>
 
         <!-- Button -->
-        <a href="/contact" class="inline-block bg-gradient-to-r from-brand to-light text-white px-6 py-3 rounded-full font-semibold shadow hover:opacity-90 transition">
+        <a href="/contact" class="inline-block bg-gradient-to-r from-brand to-light text-white px-6 py-3 max-md:px-4 max-md:py-2 max-md:text-sm rounded-full font-semibold shadow hover:opacity-90 transition">
           Connect us →
         </a>
       </div>
     </div>
   </section>
 
-  <section class="py-28 bg-gray-50 relative w-full h-auto">
-    <div class="absolute bottom-0 left-0 z-20 w-full h-full">
+  <section class="py-28 max-md:py-16 bg-gray-50 relative w-full h-auto">
+    <div class="absolute bottom-0 left-0 z-20 w-full h-full max-md:hidden">
       <img src="/public/assets/images/bgimg.png" alt="" class="h-full w-auto opacity-20">
     </div>
-    <div class="text-center max-w-3xl mx-auto mb-16">
+    <div class="text-center max-w-3xl mx-auto mb-16 max-md:w-[90%] max-md:mb-8">
       <p class="text-sm font-semibold text-brand mb-2 flex items-center justify-center gap-2">
         <span class="text-brand">✦</span> OUR WORKING PROCESS
       </p>
@@ -159,90 +159,87 @@ include 'includes/nav.php';
     </div>
   </section>
 
-  <section class="pt-16 bg-white">
-    <div class="text-center max-w-3xl mx-auto mb-16">
-      <p class="text-sm font-semibold text-brand flex items-center justify-center gap-2 mb-2">
-        <span class="text-brand">✦</span> OUR STORY
-      </p>
-      <h2 class="text-3xl md:text-4xl font-bold leading-snug">
-        The Journey of Animocare Private Limited
-      </h2>
-    </div>
+<section class="pt-16 bg-white">
+  <!-- Header -->
+  <div class="text-center max-w-3xl mx-auto mb-12 px-4">
+    <p class="text-sm font-semibold text-brand flex items-center justify-center gap-2 mb-2 flex-wrap">
+      <span class="text-brand">✦</span> OUR STORY
+    </p>
+    <h2 class="text-3xl md:text-4xl font-bold leading-snug">
+      The Journey of Animocare Private Limited
+    </h2>
+  </div>
 
-    <div class="relative w-[60%] mx-auto">
-      <!-- Vertical line -->
-      <div class="absolute left-1/2 transform -translate-x-1/2 h-full border-l-2 border-gray-200"></div>
+  <!-- Timeline Container -->
+  <div class="relative w-[90%] sm:w-[80%] lg:w-[60%] mx-auto">
+    <!-- Vertical line (hidden on mobile) -->
+    <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full border-l-2 border-gray-200"></div>
 
-      <!-- Timeline Item 1 -->
-      <div class="flex flex-col md:flex-row items-center mb-24 relative">
-        <!-- Left Image -->
-        <div class="md:w-1/2 px-6 md:pr-12">
-          <img src="/public/assets/images/story1.jpg" alt="Beginning" class="rounded-xl shadow-md w-full object-cover h-64">
-        </div>
-
-        <!-- Dot -->
-        <div class="hidden md:flex flex-col justify-center items-center absolute left-1/2 transform -translate-x-1/2 h-full">
-          <div class="w-3 h-3 bg-brand rounded-full"></div>
-        </div>
-
-        <!-- Right Text -->
-        <div class="md:w-1/2 px-6 md:pl-12 flex items-center">
-          <div>
-            <h3 class="text-xl font-bold mb-2">01. Humble Beginnings</h3>
-            <p class="text-gray-600 mb-2">
-              Founded with a vision to transform the import-export landscape, Animocare Private Limited began as a modest operation committed to integrity and service excellence. </p>
-            <!-- <a href="#" class="text-sm text-brand font-semibold hover:underline transition">Read More →</a> -->
-          </div>
-        </div>
+    <!-- Timeline Item 1 -->
+    <div class="flex flex-col md:flex-row items-center mb-16 md:mb-24 relative">
+      <!-- Left Image -->
+      <div class="w-full md:w-1/2 px-4 md:px-6 md:pr-12 mb-6 md:mb-0">
+        <img src="/public/assets/images/story1.jpg" alt="Beginning" class="rounded-xl shadow-md w-full object-cover h-56 sm:h-64">
       </div>
 
-      <!-- Timeline Item 2 -->
-      <div class="flex flex-col md:flex-row-reverse items-center mb-24 relative">
-        <!-- Right Image -->
-        <div class="md:w-1/2 px-6 md:pl-12">
-          <img src="/public/assets/images/story2.jpg" alt="Growth" class="rounded-xl shadow-md w-full object-cover h-64">
-        </div>
-
-        <!-- Dot -->
-        <div class="hidden md:flex flex-col justify-center items-center absolute left-1/2 transform -translate-x-1/2 h-full">
-          <div class="w-3 h-3 bg-brand rounded-full"></div>
-        </div>
-
-        <!-- Left Text -->
-        <div class="md:w-1/2 px-6 md:pr-12 flex items-center">
-          <div>
-            <h3 class="text-xl font-bold mb-2">02. Expanding Our Reach</h3>
-            <p class="text-gray-600 mb-2">
-              Through strategic partnerships and an unwavering focus on quality, we steadily grew into new markets, bridging producers and buyers across continents. </p>
-            <!-- <a href="#" class="text-sm text-brand font-semibold hover:underline transition">Read More →</a> -->
-          </div>
-        </div>
+      <!-- Dot (only on desktop) -->
+      <div class="hidden md:flex flex-col justify-center items-center absolute left-1/2 transform -translate-x-1/2 h-full">
+        <div class="w-3 h-3 bg-brand rounded-full"></div>
       </div>
 
-      <!-- Timeline Item 3 -->
-      <div class="flex flex-col md:flex-row items-center mb-24 relative">
-        <!-- Left Image -->
-        <div class="md:w-1/2 px-6 md:pr-12">
-          <img src="/public/assets/images/story3.jpg" alt="Today" class="rounded-xl shadow-md w-full object-cover h-64">
-        </div>
-
-        <!-- Dot -->
-        <div class="hidden md:flex flex-col justify-center items-center absolute left-1/2 transform -translate-x-1/2 h-full">
-          <div class="w-3 h-3 bg-brand rounded-full"></div>
-        </div>
-
-        <!-- Right Text -->
-        <div class="md:w-1/2 px-6 md:pl-12 flex items-center">
-          <div>
-            <h3 class="text-xl font-bold mb-2">03. Animocare Private Limited Today</h3>
-            <p class="text-gray-600 mb-2">
-              Animocare Private Limited working hard to be recognized as a trusted name in international trade—known for ethical sourcing, transparent logistics, and an uncompromising commitment to excellence. </p>
-            <!-- <a href="#" class="text-sm text-brand font-semibold hover:underline transition">Read More →</a> -->
-          </div>
-        </div>
+      <!-- Right Text -->
+      <div class="w-full md:w-1/2 px-4 md:px-6 md:pl-12 text-center md:text-left">
+        <h3 class="text-lg sm:text-xl font-bold mb-2">01. Humble Beginnings</h3>
+        <p class="text-gray-600 text-sm sm:text-base">
+          Founded with a vision to transform the import-export landscape, Animocare Private Limited began as a modest operation committed to integrity and service excellence.
+        </p>
       </div>
     </div>
-  </section>
+
+    <!-- Timeline Item 2 -->
+    <div class="flex flex-col md:flex-row-reverse items-center mb-16 md:mb-24 relative">
+      <!-- Right Image -->
+      <div class="w-full md:w-1/2 px-4 md:px-6 md:pl-12 mb-6 md:mb-0">
+        <img src="/public/assets/images/story2.jpg" alt="Growth" class="rounded-xl shadow-md w-full object-cover h-56 sm:h-64">
+      </div>
+
+      <!-- Dot (only on desktop) -->
+      <div class="hidden md:flex flex-col justify-center items-center absolute left-1/2 transform -translate-x-1/2 h-full">
+        <div class="w-3 h-3 bg-brand rounded-full"></div>
+      </div>
+
+      <!-- Left Text -->
+      <div class="w-full md:w-1/2 px-4 md:px-6 md:pr-12 text-center md:text-left">
+        <h3 class="text-lg sm:text-xl font-bold mb-2">02. Expanding Our Reach</h3>
+        <p class="text-gray-600 text-sm sm:text-base">
+          Through strategic partnerships and an unwavering focus on quality, we steadily grew into new markets, bridging producers and buyers across continents.
+        </p>
+      </div>
+    </div>
+
+    <!-- Timeline Item 3 -->
+    <div class="flex flex-col md:flex-row items-center mb-8 md:mb-24 relative">
+      <!-- Left Image -->
+      <div class="w-full md:w-1/2 px-4 md:px-6 md:pr-12 mb-6 md:mb-0">
+        <img src="/public/assets/images/story3.jpg" alt="Today" class="rounded-xl shadow-md w-full object-cover h-56 sm:h-64">
+      </div>
+
+      <!-- Dot (only on desktop) -->
+      <div class="hidden md:flex flex-col justify-center items-center absolute left-1/2 transform -translate-x-1/2 h-full">
+        <div class="w-3 h-3 bg-brand rounded-full"></div>
+      </div>
+
+      <!-- Right Text -->
+      <div class="w-full md:w-1/2 px-4 md:px-6 md:pl-12 text-center md:text-left">
+        <h3 class="text-lg sm:text-xl font-bold mb-2">03. Animocare Private Limited Today</h3>
+        <p class="text-gray-600 text-sm sm:text-base">
+          Animocare Private Limited is working hard to be recognized as a trusted name in international trade—known for ethical sourcing, transparent logistics, and an uncompromising commitment to excellence.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 </body>

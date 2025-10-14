@@ -78,6 +78,14 @@
         "path": "/contact",
         "controller": "WebsiteController@contact"
     },
+     {
+        "methods": [
+            "GET",
+            "POST"
+        ],
+        "path": "/contact-email",
+        "controller": "WebsiteController@contacteMail"
+    },
     {
         "methods": [
             "GET",

@@ -10,10 +10,10 @@ include 'includes/nav.php';
         <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 
         <div class="relative z-10 max-w-3xl px-6 lg:px-20">
-            <h1 class="lg:text-5xl md:text-4xl text-3xl font-bold text-white leading-tight mb-3">
+            <h1 class="lg:text-5xl md:text-4xl text-2xl font-bold text-white leading-tight mb-3">
                 Animocare Private Limited <span class="text-brand">Blog</span>
             </h1>
-            <p class="mt-6 text-base text-gray-200">
+            <p class="mt-6 text-base text-gray-200 max-md:hidden">
                 Discover the latest news, tips, and stories from Animocare Private Limited. Learn about global import-export trends, industry insights, and best practices for international trade.
             </p>
         </div>
@@ -21,13 +21,13 @@ include 'includes/nav.php';
 
 
     <!-- Main Content -->
-    <section class="w-[85vw] max-md:w-full items-center justify-center mx-auto py-12">
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+    <section class="w-[85vw] max-md:w-[90vw] items-center justify-center mx-auto py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 max-md:gap-6">
             <!-- Main Blog Posts (2/3 width) -->
             <div class="lg:col-span-2">
                 <!-- Blog Card -->
                 <div class="bg-white overflow-hidden mb-8">
-                    <h3 class="text-3xl font-bold text-gray-800 mb-4 capitalize"><?= $blogbyid['blog_title'] ?></h3>
+                    <h3 class="text-3xl max-md:text-xl font-bold text-gray-800 mb-4 capitalize"><?= $blogbyid['blog_title'] ?></h3>
 
                     <div class="flex justify-between items-center w-full mb-8">
                         <div class="flex items-center justify-center text-sm text-gray-500 space-x-8">
@@ -41,23 +41,23 @@ include 'includes/nav.php';
                                 <span><?= $blogbyid['blog_date'] ?></span>
                             </div>
                         </div>
-                        <div class="flex items-center justify-center">
+                        <!-- <div class="flex items-center justify-center">
                             <button
                                 onclick="shareBlog('<?= $blog['blog_title'] ?>', window.location.origin + '/blog-details')"
                                 class="flex items-center text-blue-600 h-12 w-12 rounded-full bg-blue-100 items-center justify-center hover:text-blue-700 text-base font-medium">
                                 <i class="fas fa-share-alt text-xl mr-1"></i>
                             </button>
-                        </div>
+                        </div> -->
                     </div>
 
                     <!-- Blog Image -->
                     <div>
                         <img src="/<?= $blogbyid['blog_img'] ?>" alt="Blog Image"
-                            class="w-full h-[60vh] rounded-lg object-cover">
+                            class="w-full h-[60vh] max-md:h-[40vh] rounded-lg object-cover">
                     </div>
 
                     <!-- Blog Content -->
-                    <div class="mt-12">
+                    <div class="mt-12 max-md:mt-6">
                         <!-- Blog Description -->
                         <p class="text-gray-600 leading-relaxed">
                             <?= $blogbyid['blog_description'] ?>
@@ -69,11 +69,11 @@ include 'includes/nav.php';
             </div>
 
             <!-- Sidebar (1/3 width) -->
-            <div class="lg:col-span-1 sticky top-0 right-0 h-fit">
+            <div class="lg:col-span-1 sticky top-0 right-0 h-fit max-md:w-full">
                 <!-- Recent Posts -->
-                <div class="bg-white p-6 rounded-lg bg-gray-50 mb-8">
+                <div class="bg-white md:p-6 rounded-lg bg-gray-50 mb-8">
                     <h3 class="text-xl font-bold text-gray-800 mb-4 pb-2 text-center">Recent Posts</h3>
-                    <div class="grid grid-cols-1 gap-6">
+                    <div class="grid grid-cols-1 gap-6 max-md:w-full">
                         <?php foreach ($recentBlogs as $blog) {
                             $url = str_replace(' ', '-', $blog['blog_title']);
                             $url = str_replace('“', '', $url);

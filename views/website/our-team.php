@@ -11,24 +11,24 @@ include 'includes/nav.php';
         <div class="absolute inset-0 bg-black bg-opacity-60"></div>
 
         <div class="relative z-10 max-w-3xl px-6 lg:px-20">
-            <h1 class="lg:text-5xl md:text-4xl text-3xl font-bold text-white leading-tight">
-                <div class="mb-3">Our Team</div>
+            <h1 class="lg:text-5xl md:text-4xl text-2xl font-bold text-white leading-tight">
+                <div class="md:mb-3">Our Team</div>
                 <div class="mb-3 text-brand">People Behind Animocare Private Limited</div>
             </h1>
 
-            <p class="mt-6 text-base text-gray-200">
+            <p class="mt-6 text-base text-gray-200 max-md:hidden">
                 Meet the dedicated professionals driving Animocare Private Limited’s mission to connect global markets with trust and excellence.
             </p>
         </div>
     </section>
 
-    <div class="w-full mx-auto py-14">
+    <div class="w-full max-md:w-[90%] mx-auto py-14">
         <!-- Header Section -->
         <div class="text-center mb-12">
             <span class="text-brand font-semibold tracking-wide uppercase">
                 <span class="text-brand">✦</span> Our Team
             </span>
-            <h2 class="text-4xl font-extrabold mt-3 mb-4">
+            <h2 class="text-4xl max-md:text-3xl font-extrabold mt-3 mb-4">
                 Meet the People <br />
                 Behind Animocare Private Limited’s Global Success
             </h2>
@@ -39,14 +39,14 @@ include 'includes/nav.php';
 
 
         <!-- Team Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 w-[70vw] mx-auto">
+        <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 max-md:gap-6 md:mb-12 w-[70vw] max-md:w-full mx-auto">
             <!-- Team Member 1 -->
             <div class="group cursor-pointer">
-                <div class="bg-white p-6">
-                    <div class="relative overflow-hidden mb-6">
+                <div class="bg-white md:p-6">
+                    <div class="relative overflow-hidden mb-6 max-md:mb-1">
                         <img src="/public/assets/images/profile.jpeg"
                             alt="Demon Cats"
-                            class="w-full md:h-64 lg:h-80 max-md:h-48 object-cover transition-transform duration-300 group-hover:scale-105">
+                            class="w-full md:h-64 lg:h-80 max-md:h-36 object-cover transition-transform duration-300 group-hover:scale-105">
                         <div
                             class="absolute inset-0 bg-gradient-to-l from-brand-brandto-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         </div>
@@ -81,20 +81,20 @@ include 'includes/nav.php';
                     </div>
                     <div class="text-left">
                         <h3
-                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
+                            class="text-xl max-md:text-base font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
                             Demon Cats</h3>
-                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
+                        <p class="text-gray-500 max-md:text-sm group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
                 </div>
             </div>
 
             <!-- Team Member 2 -->
             <div class="group cursor-pointer">
-                <div class="bg-white p-6">
-                    <div class="relative overflow-hidden mb-6">
+                <div class="bg-white md:p-6">
+                    <div class="relative overflow-hidden mb-6 max-md:mb-1">
                         <img src="/public/assets/images/profile.jpeg"
                             alt="Sammy Flaws"
-                            class="w-full md:h-64 lg:h-80 max-md:h-48 object-cover transition-transform duration-300 group-hover:scale-105">
+                            class="w-full md:h-64 lg:h-80 max-md:h-36 object-cover transition-transform duration-300 group-hover:scale-105">
                         <div
                             class="absolute inset-0 bg-gradient-to-l from-brand-brandto-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         </div>
@@ -128,20 +128,20 @@ include 'includes/nav.php';
                     </div>
                     <div class="text-left">
                         <h3
-                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
+                            class="text-xl max-md:text-base font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
                             Demon Cats</h3>
-                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
+                        <p class="text-gray-500 max-md:text-sm group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
                 </div>
             </div>
 
             <!-- Team Member 3 -->
             <div class="group cursor-pointer">
-                <div class="bg-white p-6">
-                    <div class="relative overflow-hidden mb-6">
+                <div class="bg-white md:p-6">
+                    <div class="relative overflow-hidden mb-6 max-md:mb-1">
                         <img src="/public/assets/images/profile.jpeg"
                             alt="Emily Carter"
-                            class="w-full md:h-64 lg:h-80 max-md:h-48 object-cover transition-transform duration-300 group-hover:scale-105">
+                            class="w-full md:h-64 lg:h-80 max-md:h-36 object-cover transition-transform duration-300 group-hover:scale-105">
                         <div
                             class="absolute inset-0 bg-gradient-to-l from-brand-brandto-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         </div>
@@ -175,20 +175,20 @@ include 'includes/nav.php';
                     </div>
                     <div class="text-left">
                         <h3
-                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
+                            class="text-xl max-md:text-base font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
                             Demon Cats</h3>
-                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
+                        <p class="text-gray-500 max-md:text-sm group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
                 </div>
             </div>
 
             <!-- Team Member 4 -->
             <div class="group cursor-pointer">
-                <div class="bg-white p-6">
-                    <div class="relative overflow-hidden mb-6">
+                <div class="bg-white md:p-6">
+                    <div class="relative overflow-hidden mb-6 max-md:mb-1">
                         <img src="/public/assets/images/profile.jpeg"
                             alt="Simon Cyrene"
-                            class="w-full md:h-64 lg:h-80 max-md:h-48 object-cover transition-transform duration-300 group-hover:scale-105">
+                            class="w-full md:h-64 lg:h-80 max-md:h-36 object-cover transition-transform duration-300 group-hover:scale-105">
                         <div
                             class="absolute inset-0 bg-gradient-to-l from-brand-brandto-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         </div>
@@ -222,20 +222,20 @@ include 'includes/nav.php';
                     </div>
                     <div class="text-left">
                         <h3
-                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
+                            class="text-xl max-md:text-base font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
                             Demon Cats</h3>
-                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
+                        <p class="text-gray-500 max-md:text-sm group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
                 </div>
             </div>
 
             <!-- Team Member 5 -->
             <div class="group cursor-pointer">
-                <div class="bg-white p-6">
-                    <div class="relative overflow-hidden mb-6">
+                <div class="bg-white md:p-6">
+                    <div class="relative overflow-hidden mb-6 max-md:mb-1">
                         <img src="/public/assets/images/profile.jpeg"
                             alt="Paul Flawus"
-                            class="w-full md:h-64 lg:h-80 max-md:h-48 object-cover transition-transform duration-300 group-hover:scale-105">
+                            class="w-full md:h-64 lg:h-80 max-md:h-36 object-cover transition-transform duration-300 group-hover:scale-105">
                         <div
                             class="absolute inset-0 bg-gradient-to-l from-brand-brandto-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         </div>
@@ -269,20 +269,20 @@ include 'includes/nav.php';
                     </div>
                     <div class="text-left">
                         <h3
-                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
+                            class="text-xl max-md:text-base font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
                             Demon Cats</h3>
-                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
+                        <p class="text-gray-500 max-md:text-sm group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
                 </div>
             </div>
 
             <!-- Team Member 6 -->
             <div class="group cursor-pointer">
-                <div class="bg-white p-6">
-                    <div class="relative overflow-hidden mb-6">
+                <div class="bg-white md:p-6">
+                    <div class="relative overflow-hidden mb-6 max-md:mb-1">
                         <img src="/public/assets/images/profile.jpeg"
                             alt="Melissa Doe"
-                            class="w-full md:h-64 lg:h-80 max-md:h-48 object-cover transition-transform duration-300 group-hover:scale-105">
+                            class="w-full md:h-64 lg:h-80 max-md:h-36 object-cover transition-transform duration-300 group-hover:scale-105">
                         <div
                             class="absolute inset-0 bg-gradient-to-l from-brand-brandto-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         </div>
@@ -316,9 +316,9 @@ include 'includes/nav.php';
                     </div>
                     <div class="text-left">
                         <h3
-                            class="text-xl font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
+                            class="text-xl max-md:text-base font-semibold text-gray-900 group-hover:text-brand-brandnsition-colors duration-300">
                             Demon Cats</h3>
-                        <p class="text-gray-500 group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
+                        <p class="text-gray-500 max-md:text-sm group-hover:text-gray-700 transition-colors duration-300">Logistics Partner</p>
                     </div>
                 </div>
             </div>

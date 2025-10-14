@@ -12,7 +12,7 @@ include 'includes/nav.php';
         <h1 class="text-5xl font-semibold text-center text-gray-900 my-10">Frequently Asked Questions</h1>
     </div> -->
     <section class="w-full mx-auto py-16 max-md:py-8">
-        <div class="w-[70vw] mx-auto flex flex-col items-center justify-center">
+        <div class="w-[70vw] max-md:w-[90vw] mx-auto flex flex-col items-center justify-center">
             <!-- <div class="w-full">
                 <p class="text-xl font-semibold text-left text-gray-900 mb-10">FAQs</p>
             </div> -->
