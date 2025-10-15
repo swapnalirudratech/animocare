@@ -1,6 +1,5 @@
 <?php
-// No whitespace or output before this!
-require $_SERVER['DOCUMENT_ROOT'] . './vendor/autoload.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
