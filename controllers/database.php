@@ -14,7 +14,11 @@ class Database
 
     private $charset = "utf8mb4";
     private $pdo;
+
     private $base_url = "https://animocare.test/";
+
+    // private $base_url = "https://animocare.com/";
+
     private $software = "https://software.teamrudra.com/";
     private $softwareid = "4";
 
