@@ -1,6 +1,7 @@
 <?php
 $page = 'home';
 include 'includes/header.php';
+include 'includes/product_array.php';
 include 'includes/nav.php';
 ?>
 

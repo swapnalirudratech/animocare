@@ -122,6 +122,17 @@ class WebsiteController extends LoginController
         }
     }
 
+    public function productDetails()
+    {
+        $siteName = getDBObject()->getSiteName();
+        $pageTitle = "Product Details";
+        // $this->checkSession();
+        if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+
+            require 'views/website/product_details.php';
+        }
+    }
+
     public function contact()
     {
         $siteName = getDBObject()->getSiteName();

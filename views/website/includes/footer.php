@@ -24,7 +24,7 @@
             <div>
                 <h3 class="font-semibold text-white mb-4">Sign Up For Newsletter</h3>
                 <form class="flex flex-col space-y-4">
-                    <input type="email" placeholder="Email address.." class="w-[70%] bg-transparent border-b border-gray-600 py-2 text-gray-300 focus:outline-none">
+                    <input type="email" required placeholder="Email address.." class="w-[70%] bg-transparent border-b border-gray-600 py-2 text-gray-300 focus:outline-none">
                     <button class="bg-gradient-to-r from-brand to-light text-white font-semibold py-2 px-5 max-md:px-4 max-md:py-2 max-md:text-sm rounded-full w-fit">
                         Subscribe Us →
                     </button>
@@ -73,7 +73,7 @@
     </div>
 
     <!-- Floating Action Button -->
-    <div class="fixed top-1/2 right-0 transform -translate-y-1/2 flex flex-col gap-2 z-50">
+    <div class="fixed top-1/2 right-0 transform -translate-y-1/2 flex flex-col gap-2 z-40">
         <a
             href="tel:+022-22640051"
             class="w-12 h-12 max-md:w-10 max-md:h-10 bg-blue-500 hover:bg-blue-600 text-white rounded-l-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center"

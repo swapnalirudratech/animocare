@@ -59,6 +59,14 @@
             "GET",
             "POST"
         ],
+        "path": "/product-details",
+        "controller": "WebsiteController@productDetails"
+    },
+    {
+        "methods": [
+            "GET",
+            "POST"
+        ],
         "path": "/our-team",
         "controller": "WebsiteController@ourTeam"
     },
