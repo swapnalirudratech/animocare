@@ -20,7 +20,7 @@ $products = [
     '1121-golden' => [
         'name' => '1121 Golden Sella Basmati Rice',
         'category' => 'Agro Commodities',
-        'image' => '/public/assets/images/products/2.webp', 
+        'image' => '/public/assets/images/products/2.webp',
         'short_desc' => 'Premium parboiled Basmati rice with a distinct golden color. Known for its extra-long grains and non-sticky texture after cooking.',
         'long_desc' => 'Our 1121 Golden Sella Basmati Rice is processed through a unique parboiling method that ensures the grains retain their nutrients and rich aroma. This process gives the rice its signature golden hue and robust texture, making it highly resistant to overcooking. It is the preferred choice for bulk catering, biryanis, and Pulao dishes globally due to its ability to remain fluffy and separate.',
         'specs' => [
@@ -378,7 +378,7 @@ $products = [
     'palm-oil' => [
         'name' => 'Palm Oil (Crude & Refined)',
         'category' => 'Edible Oils',
-        'image' => 'https://media.istockphoto.com/id/508732688/photo/palm-oil-in-glass-bottle.jpg?s=612x612&w=0&k=20&c=v3_O-fOQoFjA3-dK-Jgq0Q5Xz-6_7_8_9_0.jpg',
+        'image' => '/public/assets/images/products/crude-palm-oil.jpg',
         'short_desc' => 'Crude Palm Oil (CPO) and Refined varieties (CP6, CP8, CP10).',
         'long_desc' => 'We supply premium Crude Palm Oil (CPO) and Refined Bleached Deodorized (RBD) Palm Olein. Our refined grades (CP6, CP8, CP10) are fractionated to ensure stability at different temperatures. Widely used in frying, baking, and biodiesel production.',
         'specs' => [
@@ -395,7 +395,7 @@ $products = [
     'sunflower-oil' => [
         'name' => 'Sunflower Oil (Refined)',
         'category' => 'Edible Oils',
-        'image' => 'https://media.istockphoto.com/id/1154695679/photo/sunflower-oil-in-bottle-glass-on-white-background.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/refined-sunflower-oil.jpg',
         'short_desc' => '100% Refined Winterized Sunflower Oil. Light, healthy, and Vitamin E rich.',
         'long_desc' => 'Our Refined Sunflower Oil is winterized to ensure clarity even at low temperatures. It is light in taste and appearance, high in polyunsaturated fats, and cholesterol-free. Ideal for salad dressings, cooking, and margarine production.',
         'specs' => [
@@ -411,7 +411,7 @@ $products = [
     'sesame-oil' => [
         'name' => 'Sesame Seed Oil',
         'category' => 'Edible Oils',
-        'image' => 'https://media.istockphoto.com/id/1135272669/photo/sesame-oil-in-glass-bottle.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/sesame-oil.webp',
         'short_desc' => 'Pure roasted/toasted Sesame Oil with a rich nutty aroma.',
         'long_desc' => 'Extracted from premium roasted sesame seeds, our Sesame Oil is known for its distinctive nutty flavor and high stability. It is widely used in Asian cuisine for seasoning and stir-frying. We also offer cold-pressed virgin sesame oil for medicinal and cosmetic applications.',
         'specs' => [
@@ -427,7 +427,7 @@ $products = [
     'coconut-oil' => [
         'name' => 'Coconut Oil (CNO)',
         'category' => 'Edible Oils',
-        'image' => 'https://media.istockphoto.com/id/503147586/photo/coconut-oil.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/coconut-oil.png',
         'short_desc' => 'Available in Crude, RBD, and Virgin Cold Pressed varieties.',
         'long_desc' => 'We supply high-quality Coconut Oil sourced from coastal regions. Available as Crude Coconut Oil (CNO) for industrial use, RBD (Refined Bleached Deodorized) for cooking, and Virgin Coconut Oil (VCO) for health and cosmetic industries. Rich in Lauric Acid.',
         'specs' => [
@@ -443,7 +443,7 @@ $products = [
     'mustard-oil' => [
         'name' => 'Mustard Oil (Kachi Ghani)',
         'category' => 'Edible Oils',
-        'image' => 'https://media.istockphoto.com/id/1196166545/photo/mustard-oil-in-bottle.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/mustard-oil.webp',
         'short_desc' => 'Pungent and sharp Mustard Oil produced from high-quality seeds.',
         'long_desc' => 'Our Mustard Oil is extracted using traditional cold-press (Kachi Ghani) methods to retain its natural pungency (Allyl Isothiocyanate) and nutritional benefits. It is a staple in Indian cooking and is known for its heating properties and antimicrobial qualities.',
         'specs' => [
@@ -459,7 +459,7 @@ $products = [
     'groundnut-oil' => [
         'name' => 'Groundnut Oil (Peanut Oil)',
         'category' => 'Edible Oils',
-        'image' => 'https://media.istockphoto.com/id/182447990/photo/peanut-oil.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/peanut-oil.jpg',
         'short_desc' => 'Filtered Groundnut Oil with a high smoke point. Excellent for deep frying.',
         'long_desc' => 'Extracted from high-oil-content peanuts (groundnuts), our oil is filtered to maintain its natural sweet aroma and golden color. It has a high smoke point, making it excellent for deep frying and general cooking. Rich in monounsaturated fats (MUFA).',
         'specs' => [
@@ -477,7 +477,7 @@ $products = [
     'crude-oil' => [
         'name' => 'Crude Oil (Light/Heavy)',
         'category' => 'Petrochemicals',
-        'image' => 'https://media.istockphoto.com/id/1406859341/photo/oil-pump-oil-industry-equipment-drilling-rigs-at-sunset.jpg?s=612x612&w=0&k=20&c=Cwb9rW_Z0v7wX6v_k_W_8_9_0.jpg', // Placeholder
+        'image' => '/public/assets/images/products/crude-oil.jpeg', // Placeholder
         'short_desc' => 'Light and Heavy Crude Oil suitable for refining into fuel and petrochemical products.',
         'long_desc' => 'We facilitate the supply of Crude Oil from major global origins. Our crude oil is characterized by its API gravity and sulfur content, making it suitable for various refinery complexities. Available in bulk shipments (VLCC/Suezmax) for international buyers.',
         'specs' => [
@@ -492,7 +492,7 @@ $products = [
     'diesel' => [
         'name' => 'Diesel EN 590 / D2',
         'category' => 'Petrochemicals',
-        'image' => 'https://media.istockphoto.com/id/1138337782/photo/refueling-car-at-gas-station.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/disel.jpg',
         'short_desc' => 'Ultra-Low Sulfur Diesel (EN 590 10 PPM) and Gasoil D2.',
         'long_desc' => 'We supply automotive diesel fuel EN 590 with 10 PPM sulfur content, meeting strict European emission standards. We also trade Gasoil D2 (GOST 305-82). Our diesel ensures high engine performance and cleaner combustion.',
         'specs' => [
@@ -508,7 +508,7 @@ $products = [
     'gasoline' => [
         'name' => 'Gasoline (Petrol)',
         'category' => 'Petrochemicals',
-        'image' => 'https://media.istockphoto.com/id/1212234360/photo/filling-gas-into-the-tank.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/petrol.jpeg',
         'short_desc' => 'Motor Gasoline with varying Octane numbers (RON 92 / 95).',
         'long_desc' => 'High-quality Motor Gasoline suitable for spark-ignition engines. We offer various grades based on Research Octane Number (RON), primarily RON 92 and RON 95. Our gasoline is refined to reduce deposits and ensure smooth engine operation.',
         'specs' => [
@@ -523,7 +523,7 @@ $products = [
     'bitumen' => [
         'name' => 'Bitumen (Asphalt)',
         'category' => 'Petrochemicals',
-        'image' => 'https://media.istockphoto.com/id/175266185/photo/asphalt.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/bitumen-1-3.jpg',
         'short_desc' => 'Paving Grade Bitumen 60/70 and 80/100 for road construction.',
         'long_desc' => 'We supply penetration grade Bitumen, primarily 60/70 and 80/100, which are standard for road paving and waterproofing. Our bitumen is sourced from reliable refineries and boasts excellent ductility and durability against temperature changes.',
         'specs' => [
@@ -538,7 +538,7 @@ $products = [
     'pta' => [
         'name' => 'PTA (Purified Terephthalic Acid)',
         'category' => 'Petrochemicals',
-        'image' => 'https://media.istockphoto.com/id/1354050212/photo/white-chemical-powder.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/terephthalic-acid.webp',
         'short_desc' => 'High purity PTA powder. Primary raw material for Polyester production.',
         'long_desc' => 'Purified Terephthalic Acid (PTA) is a white, free-flowing crystalline powder. It is the key raw material used to manufacture Polyester fibers, PET bottles, and Polyester films. Our PTA guarantees high purity and low heavy metal content.',
         'specs' => [
@@ -554,7 +554,7 @@ $products = [
     'meg' => [
         'name' => 'MEG (Mono Ethylene Glycol)',
         'category' => 'Petrochemicals',
-        'image' => 'https://media.istockphoto.com/id/1295995393/photo/chemical-liquid-in-glass.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/Mono-Ethylene-Glycol.webp',
         'short_desc' => 'Clear, colorless MEG liquid. Used for PET, Polyester, and Antifreeze.',
         'long_desc' => 'Mono Ethylene Glycol (MEG) is an odorless, colorless, sweet-tasting liquid. It is a vital ingredient for the production of polyester fibers and PET resins. It is also widely used as an antifreeze/coolant in automotive engines.',
         'specs' => [
@@ -570,7 +570,7 @@ $products = [
     'polymers' => [
         'name' => 'Polymers (HDPE / LDPE / PVC)',
         'category' => 'Petrochemicals',
-        'image' => 'https://media.istockphoto.com/id/1169161472/photo/plastic-granules.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/polymer.jpg',
         'short_desc' => 'Virgin Granules/Resins: HDPE, LDPE, LLDPE, PP, PVC, PET, and Acrylic.',
         'long_desc' => 'We offer a wide spectrum of Polymer resins for the plastic industry. Our range includes High-Density Polyethylene (HDPE) for pipes/containers, Low-Density Polyethylene (LDPE) for films, Polyvinyl Chloride (PVC) for construction, and PET for packaging. Available in various melt flow indices (MFI) to suit injection and blow molding.',
         'specs' => [
@@ -587,7 +587,7 @@ $products = [
     'hms-scrap' => [
         'name' => 'Heavy Melting Scrap (HMS 1&2)',
         'category' => 'Metals - Ferrous',
-        'image' => 'https://5.imimg.com/data5/SELLER/Default/2022/11/OI/NM/HK/3660504/hms-1-2-scrap.jpg',
+        'image' => '/public/assets/images/products/metal-scrap.jpeg',
         'short_desc' => 'Industrial grade Heavy Melting Steel scrap (HMS 1 & 2) with 80:20 ratio.',
         'long_desc' => 'We supply HMS 1&2 scrap consisting of recyclable steel and wrought iron. Ideal for steel mills and foundries. The scrap is free from radioactive materials, bombs, arms, and ammunition. Sourced globally to ensure consistent supply for melting furnaces.',
         'specs' => [
@@ -603,7 +603,7 @@ $products = [
     'carbon-steel' => [
         'name' => 'Carbon Steel (Plates/Coils)',
         'category' => 'Metals - Ferrous',
-        'image' => 'https://media.istockphoto.com/id/1320496766/photo/steel-sheets-rolled-up-into-rolls.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/steel-coils.jpeg',
         'short_desc' => 'High-strength Carbon Steel available in Plates, Sheets, and Coils.',
         'long_desc' => 'Carbon Steel is the backbone of the construction and manufacturing industries. We supply Low, Medium, and High carbon steel products. Available as hot-rolled or cold-rolled coils and plates. Known for high tensile strength and durability.',
         'specs' => [
@@ -618,7 +618,7 @@ $products = [
     'stainless-steel' => [
         'name' => 'Stainless Steel Scrap',
         'category' => 'Metals - Ferrous',
-        'image' => 'https://media.istockphoto.com/id/515222044/photo/stainless-steel-scraps.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/stainless-steel-metal-scrap.webp',
         'short_desc' => 'Recyclable Stainless Steel Scrap solids and turnings.',
         'long_desc' => 'We offer various grades of Stainless Steel scrap including solids, clippings, and turnings. The scrap is segregated to ensure no contamination with other ferrous metals. High nickel and chromium content makes it ideal for re-melting.',
         'specs' => [
@@ -633,7 +633,7 @@ $products = [
     'cast-iron' => [
         'name' => 'Cast Iron Scrap',
         'category' => 'Metals - Ferrous',
-        'image' => 'https://media.istockphoto.com/id/157505372/photo/scrap-metal.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/iron-scarp.jpeg',
         'short_desc' => 'Heavy Cast Iron Machinery scrap and rotors.',
         'long_desc' => 'Sourced from broken machinery, engine blocks, and rotors. Our Cast Iron scrap is clean and free from non-metallic materials. It is brittle and heavy, containing high carbon, suitable for foundry applications.',
         'specs' => [
@@ -648,7 +648,7 @@ $products = [
     'alloy-steels' => [
         'name' => 'Alloy Steels',
         'category' => 'Metals - Ferrous',
-        'image' => 'https://media.istockphoto.com/id/175567544/photo/steel-bars.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/steel-alloy.jpeg',
         'short_desc' => 'Specialized Alloy Steels containing Manganese, Silicon, or Nickel.',
         'long_desc' => 'Steel alloyed with other elements to improve mechanical properties like strength, hardness, and wear resistance. We supply alloy steel bars, rods, and scrap suitable for automotive and aerospace applications.',
         'specs' => [
@@ -663,7 +663,7 @@ $products = [
     'rail-track-scrap' => [
         'name' => 'Rail Track Scrap (R50/R65)',
         'category' => 'Metals - Ferrous',
-        'image' => 'https://5.imimg.com/data5/ANDROID/Default/2021/2/QG/LZ/UD/3421526/product-jpeg-500x500.jpg',
+        'image' => '/public/assets/images/products/rail-iron-scrap.jpg',
         'short_desc' => 'Used Rail Scrap R50 - R65. Cut to length.',
         'long_desc' => 'We supply Used Rail Scrap classified as R50 (51.67 kg/m) and R65 (64.72 kg/m). The rails are cut to specified lengths (e.g., 1.2m or 1.5m) as per buyer requirements. Free from mud, dust, fluff, and other non-metal impurities.',
         'specs' => [
@@ -679,7 +679,7 @@ $products = [
     'ss-304-316' => [
         'name' => 'SS 304 / SS 316 Grade',
         'category' => 'Metals - Ferrous',
-        'image' => 'https://media.istockphoto.com/id/1183177774/photo/stainless-steel-pipes.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/ss.webp',
         'short_desc' => 'Premium Austenitic Stainless Steel (304 & 316). Food and Marine grade.',
         'long_desc' => 'Specific grades of Stainless Steel. **SS 304** is the most versatile, used in food processing and kitchen equipment. **SS 316** contains molybdenum, providing superior corrosion resistance, making it ideal for marine environments and chemical processing.',
         'specs' => [
@@ -696,7 +696,7 @@ $products = [
     'copper' => [
         'name' => 'Copper (Cathode & Wire)',
         'category' => 'Metals - Non-Ferrous',
-        'image' => 'https://media.istockphoto.com/id/184275037/photo/copper-wire.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/copper-wire.jpeg',
         'short_desc' => 'Electrolytic Copper Cathode (99.99%) and Millberry Copper Wire Scrap.',
         'long_desc' => 'We supply Grade A Electrolytic **Copper Cathodes** (LME Standards) for melting and casting. We also offer **Copper Wire Scrap** (Millberry/Berry), which is clean, bright, and unburnt wire, perfect for recycling into new electrical components.',
         'specs' => [
@@ -711,7 +711,7 @@ $products = [
     'aluminum' => [
         'name' => 'Aluminum (Ingot & Scrap)',
         'category' => 'Metals - Non-Ferrous',
-        'image' => 'https://media.istockphoto.com/id/1364536648/photo/aluminum-ingots.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/alluminium.png',
         'short_desc' => 'Aluminum Ingot A7 and recycled Aluminum Scrap (Taint/Tabor/Wire).',
         'long_desc' => 'High-purity **Aluminum Ingot A7** (99.7%) for industrial casting. We also trade **Aluminum Scrap**, including "Taint/Tabor" (Old Sheet), Extrusions (6063), and "Talon" (Wire Scrap). Lightweight and corrosion-resistant.',
         'specs' => [
@@ -726,7 +726,7 @@ $products = [
     'zinc' => [
         'name' => 'Zinc & Zinc Scrap',
         'category' => 'Metals - Non-Ferrous',
-        'image' => 'https://media.istockphoto.com/id/172382025/photo/zinc-ingots.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/zinc.jpg',
         'short_desc' => 'SHG Zinc Ingots (99.995%) and Die Cast Zinc Scrap (Saves).',
         'long_desc' => 'We supply Special High Grade (SHG) Zinc Ingots used for galvanizing steel. Our Zinc Scrap (Saves) consists of clean, old zinc die-cast parts free from iron and other impurities, ideal for recycling.',
         'specs' => [
@@ -741,7 +741,7 @@ $products = [
     'lead' => [
         'name' => 'Lead & Lead Scrap',
         'category' => 'Metals - Non-Ferrous',
-        'image' => 'https://media.istockphoto.com/id/500609353/photo/lead-ingots.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/lead-ingots.jpg',
         'short_desc' => 'Refined Lead Ingots and Lead Scrap (Rains/Radio/Battery).',
         'long_desc' => 'Refined Lead Ingots with 99.97% purity. We also deal in Lead Scrap such as Soft Lead (Rains) and Drained Lead Acid Battery Scrap (Rains/Rails). Used extensively in battery manufacturing and cable sheathing.',
         'specs' => [
@@ -756,7 +756,7 @@ $products = [
     'nickel' => [
         'name' => 'Nickel & Nickel Scrap',
         'category' => 'Metals - Non-Ferrous',
-        'image' => 'https://media.istockphoto.com/id/1146607623/photo/nickel-metal.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/nickel-metal-scrap.webp',
         'short_desc' => 'Pure Nickel Cathodes and Nickel Alloy Scrap.',
         'long_desc' => 'We supply full plate and cut Nickel Cathodes (99.98%) for plating and superalloy production. Our Nickel Scrap includes pure nickel clippings and various nickel-bearing alloys suitable for specialized recycling.',
         'specs' => [
@@ -771,7 +771,7 @@ $products = [
     'brass' => [
         'name' => 'Brass & Brass Scrap',
         'category' => 'Metals - Non-Ferrous',
-        'image' => 'https://media.istockphoto.com/id/172346766/photo/brass-fittings.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/brass.jpeg',
         'short_desc' => 'Yellow Brass Scrap (Honey) and Brass Rods.',
         'long_desc' => 'Brass is an alloy of copper and zinc. We supply Brass Scrap "Honey" (Yellow Brass Scrap) consisting of mixed yellow brass solids like castings and rolled brass. We also supply rod ends and turnings free from high iron content.',
         'specs' => [
@@ -788,7 +788,7 @@ $products = [
     'iron-ore' => [
         'name' => 'Iron Ore (Fines & Lumps)',
         'category' => 'Minerals & Ores',
-        'image' => 'https://media.istockphoto.com/id/531235655/photo/iron-ore-mound.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/iron-ore-fines.webp',
         'short_desc' => 'High and Low grade Iron Ore (56% to 68% Fe). Available as Fines and Lumps.',
         'long_desc' => 'We supply a wide range of Iron Ore to steel manufacturers globally. Our supply capability ranges from low grade (56% Fe) to high grade (63.5% - 68% Fe). Available in both Fines (sinter feed) and Lumps forms. We ensure consistent chemical composition and low impurities.',
         'specs' => [
@@ -804,7 +804,7 @@ $products = [
     'copper-ore' => [
         'name' => 'Copper Ore',
         'category' => 'Minerals & Ores',
-        'image' => 'https://media.istockphoto.com/id/175438885/photo/copper-ore.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/copper ore.jpg',
         'short_desc' => 'High-grade Copper Ore concentrate (up to 20% Cu).',
         'long_desc' => 'We facilitate the supply of Copper Ore with copper content up to 20%. Our ore is sourced from rich deposits and is suitable for smelting and leaching processes. We ensure accurate assay reports and competitive pricing based on LME Copper rates.',
         'specs' => [
@@ -819,7 +819,7 @@ $products = [
     'zinc-ore' => [
         'name' => 'Zinc Ore / Concentrate',
         'category' => 'Minerals & Ores',
-        'image' => 'https://media.istockphoto.com/id/157527655/photo/zinc-ore.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/zinc-ore.webp',
         'short_desc' => 'Zinc Sulfide and Oxide Ores for smelting.',
         'long_desc' => 'We trade Zinc Ore and Concentrates used for the production of zinc metal and galvanizing. Our ore is chemically tested to ensure high zinc recovery rates and low levels of deleterious elements like lead or cadmium.',
         'specs' => [
@@ -834,7 +834,7 @@ $products = [
     'bauxite' => [
         'name' => 'Bauxite Ore',
         'category' => 'Minerals & Ores',
-        'image' => 'https://media.istockphoto.com/id/520704940/photo/bauxite-aluminum-ore.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/bauxite.webp',
         'short_desc' => 'Metal Grade Bauxite (45% Alumina). Lumps form.',
         'long_desc' => 'We supply Bauxite Ore, the primary source of Aluminum. Our Bauxite is typically of Metallurgical Grade with Alumina (Al2O3) content around 45% and low silica. Available primarily in lumps form, suitable for the Bayer process.',
         'specs' => [
@@ -851,7 +851,7 @@ $products = [
     'indo-coal' => [
         'name' => 'Indonesian Steam Coal',
         'category' => 'Coal & Fuel',
-        'image' => 'https://media.istockphoto.com/id/475146522/photo/coal-mining.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/steam-coal.webp',
         'short_desc' => 'Thermal Steam Coal. GCV range from 3800 to 6800 kcal/kg.',
         'long_desc' => 'We supply a broad spectrum of Indonesian Steam Coal suitable for power plants and industrial boilers. Grades range from Low Calorific Value (GAR 3800) to High Calorific Value (GAR 6800). Known for low ash and low sulfur content.',
         'specs' => [
@@ -867,7 +867,7 @@ $products = [
     'african-coal' => [
         'name' => 'African Coal (RB1/RB2/RB3)',
         'category' => 'Coal & Fuel',
-        'image' => 'https://media.istockphoto.com/id/157566270/photo/coal-pile.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/african-coal.webp',
         'short_desc' => 'High-energy South African Coal. Grades RB1, RB2, and RB3.',
         'long_desc' => 'Sourced from South Africa (Richards Bay), this coal is known for its high energy content and reliability. We offer standard export grades: RB1 (6000 NAR), RB2 (5700 NAR), and RB3 (5500 NAR/4800 NAR). Ideal for cement and steel industries.',
         'specs' => [
@@ -885,7 +885,7 @@ $products = [
     'gold' => [
         'name' => 'Gold (Dore Bar)',
         'category' => 'Precious Metals',
-        'image' => 'https://media.istockphoto.com/id/1143242036/photo/gold-bars.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/gold-bar.jpg',
         'short_desc' => 'Gold Dore Bars with high purity (96% - 99.9%).',
         'long_desc' => 'We facilitate the trade of Gold Dore Bars sourced from certified mines. The gold is semi-processed and ready for final refining to 999.9 standard. We operate with strict compliance and secure logistics.',
         'specs' => [
@@ -900,7 +900,7 @@ $products = [
     'silver' => [
         'name' => 'Silver Bars / Granules',
         'category' => 'Precious Metals',
-        'image' => 'https://media.istockphoto.com/id/157640325/photo/silver-bars.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/silver.jpg',
         'short_desc' => 'Pure Silver (99.9%) for industrial and jewelry investment.',
         'long_desc' => 'High-purity Silver bullion available in 1kg bars or granules. Our silver meets international standards for purity (999 fineness). Used in electronics, jewelry, and solar panels.',
         'specs' => [
@@ -914,7 +914,7 @@ $products = [
     'titanium' => [
         'name' => 'Titanium',
         'category' => 'Precious Metals',
-        'image' => 'https://media.istockphoto.com/id/183856233/photo/titanium-metal.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/titanium.jpg',
         'short_desc' => 'Titanium Ingots, Bars, and Scrap. High strength-to-weight ratio.',
         'long_desc' => 'We supply Titanium metal, known for its aerospace and medical applications. Available as Ingots (CP Grade 1-4, Alloy Grade 5) or high-quality scrap (turnings/solids) for recycling.',
         'specs' => [
@@ -931,7 +931,7 @@ $products = [
     'urea' => [
         'name' => 'UREA 46% Nitrogen',
         'category' => 'Fertilizers',
-        'image' => 'https://media.istockphoto.com/id/525386617/photo/urea-fertilizer.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/urea-46-nitrogen-fertilizer.jpg',
         'short_desc' => 'Prilled and Granular Urea Fertilizer (N 46%).',
         'long_desc' => 'We supply Technical and Agricultural grade Urea. It is the most widely used nitrogen fertilizer. Available in Prilled (smaller pellets) and Granular (larger, harder pellets) forms. White, free-flowing, and free from harmful substances.',
         'specs' => [
@@ -946,7 +946,7 @@ $products = [
     'dap' => [
         'name' => 'DAP (Di-Ammonium Phosphate)',
         'category' => 'Fertilizers',
-        'image' => 'https://media.istockphoto.com/id/171295966/photo/fertilizer-granules.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/Diammonium-Phosphate.jpg',
         'short_desc' => 'Granular DAP (18-46-0) fertilizer. High Phosphorus content.',
         'long_desc' => 'Di-Ammonium Phosphate (DAP) is a popular complex fertilizer containing 18% Nitrogen and 46% Phosphorus (P2O5). It provides excellent crop nutrition during the initial growth stages. The granules are uniform and grey/brown/black in color.',
         'specs' => [
@@ -961,7 +961,7 @@ $products = [
     'sulphur' => [
         'name' => 'Sulphur (Granular)',
         'category' => 'Fertilizers & Chemicals',
-        'image' => 'https://media.istockphoto.com/id/508605336/photo/sulfur-pile.jpg?s=612x612&w=0&k=20&c=qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7qf7=',
+        'image' => '/public/assets/images/products/sulphar.jpeg',
         'short_desc' => 'Bright yellow Granular Sulphur (99.5%+ Purity).',
         'long_desc' => 'We supply high-purity Granular Sulphur. It is a key raw material for producing Sulfuric Acid and Phosphate fertilizers. Our sulphur is bright yellow, free from dust, and easy to handle in bulk.',
         'specs' => [
