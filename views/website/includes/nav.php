@@ -2,7 +2,7 @@
     <nav class="flex items-center justify-between px-6 lg:px-12 py-3 relative z-50">
 
         <a href="/" class="flex items-center space-x-2">
-            <img src="/public/assets/images/logo2.jpg" alt="Logo" class="w-auto h-16 rounded object-contain">
+            <img src="/public/assets/images/logo2.png" alt="Logo" class="w-auto h-16 rounded object-contain">
         </a>
 
         <?php
