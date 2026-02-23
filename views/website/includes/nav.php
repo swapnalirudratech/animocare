@@ -209,10 +209,10 @@
                         <div class="absolute left-full top-0 w-80 bg-orange-50 shadow-xl 
     opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-300 
     transform translate-x-4 group-hover/item:translate-x-0 z-50 p-6 min-h-full">
-                            <a href="/product-details?id=sugar-s30" class="block py-1.5 text-gray-800 hover:translate-x-1 transition-transform">S-30</a>
-                            <a href="/product-details?id=sugar-m30" class="block py-1.5 text-gray-800 hover:translate-x-1 transition-transform">M-30</a>
-                            <a href="/product-details?id=icumsa-45" class="block py-1.5 text-gray-800 hover:translate-x-1 transition-transform">ICUMSA - 45</a>
-                            <a href="/product-details?id=icumsa-600-1200" class="block py-1.5 text-gray-800 hover:translate-x-1 transition-transform">ICUMSA -600-1200 (Raw sugar)</a>
+                            <a href="#" class="block py-1.5 text-gray-800 hover:translate-x-1 transition-transform">S-30</a>
+                            <a href="#" class="block py-1.5 text-gray-800 hover:translate-x-1 transition-transform">M-30</a>
+                            <a href="#" class="block py-1.5 text-gray-800 hover:translate-x-1 transition-transform">ICUMSA - 45</a>
+                            <a href="#" class="block py-1.5 text-gray-800 hover:translate-x-1 transition-transform">ICUMSA -600-1200 (Raw sugar)</a>
                         </div>
                     </li>
 
