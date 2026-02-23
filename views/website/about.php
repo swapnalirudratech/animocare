@@ -16,7 +16,7 @@ include 'includes/nav.php';
       </h1>
 
       <p class="mt-6 text-base text-gray-200 max-md:hidden">
-        Animocare Private Limited is a global import-export company providing quality food products, edible oils, and fertilizers worldwide.
+        Animocare Private Limited is a global import-export company providing quality food products, edible oils, metals , minerals , Petrochemicals and fertilizers worldwide.
       </p>
 
     </div>
@@ -110,7 +110,7 @@ include 'includes/nav.php';
         <div>
           <h3 class="text-lg font-bold mb-1">01. Sourcing Quality Products</h3>
           <p class="text-sm text-gray-600">
-            Trusted suppliers ensure top-tier food, oils, and agro products globally.
+            Trusted suppliers ensure top-tier food, oils, metals and minerals , Petrochemicals and agro products globally.
           </p>
         </div>
       </div>
