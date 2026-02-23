@@ -15,8 +15,8 @@
                 
             </div> -->
 
-            <img src="public/assets/images/loginimg.jpg"
-                alt="" class="w-full h-full object-cover">
+            <img src="/public/assets/images/9.jpg"
+                alt="" class="w-full h-full object-cover rounded-xl">
         </div>
 
         <!-- Right Side - Sign In Form -->
