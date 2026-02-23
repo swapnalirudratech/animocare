@@ -20,7 +20,35 @@
         <ul class="hidden lg:flex space-x-8 xl:space-x-10 items-center">
             <li><a href="/" class="<?= $page == 'home' ? $activeClass : $defaultClass ?>">Home</a></li>
 
-            <li class="group static h-full">
+            <li class="relative group">
+
+                <a href="#" class="flex items-center gap-1 py-2 <?= $page == 'company' ? $activeClass : $defaultClass ?>">
+                    Company
+                    <svg class="w-4 h-4 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+
+                <ul class="absolute left-0 top-full mt-6 w-48 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 z-50 
+               opacity-0 invisible translate-y-2 transition-all duration-300 
+               group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 
+               group-focus-within:opacity-100 group-focus-within:visible group-focus-within:translate-y-0">
+
+                    <li>
+                        <a href="/about" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-orange-600 transition-colors rounded-t-md">
+                            About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/vision-moto.php" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-orange-600 transition-colors rounded-b-md">
+                            Vision Moto
+                        </a>
+                    </li>
+                </ul>
+
+            </li>
+
+            <!-- <li class="group static h-full">
                 <button class="<?= $defaultClass ?> flex items-center gap-1 cursor-pointer focus:outline-none py-4">
                     Products
                     <svg class="w-4 h-4 transition-transform duration-300 group-hover:rotate-180 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -139,16 +167,249 @@
                         </div>
                     </div>
                 </div>
+            </li> -->
+
+
+
+            <li class="group/main relative h-full ">
+
+                <button class="text-gray-600  flex items-center gap-1 cursor-pointer focus:outline-none py-4 hover:text-orange-500 transition-colors">
+                    Products
+                    <svg class="w-4 h-4 transition-transform duration-300 group-hover/main:rotate-180 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+
+                <ul class="absolute left-0 top-full w-72 bg-white border-t-4 border-orange-500 shadow-xl 
+               opacity-0 invisible group-hover/main:opacity-100 group-hover/main:visible transition-all duration-300 
+               transform translate-y-4 group-hover/main:translate-y-0 z-40 py-3">
+
+                    <li class="relative group/item">
+                        <div class="flex items-center justify-between px-6 py-3 hover:bg-orange-50 group-hover/item:bg-orange-50 cursor-pointer transition-colors">
+                            <h3 class="text-gray-800 font-medium m-0">Rice</h3>
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute left-full top-0 w-80 bg-orange-50 shadow-xl 
+                        opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-300 
+                        transform translate-x-4 group-hover/item:translate-x-0 z-50 p-6 min-h-full">
+                            <a href="/product-details?id=1121-creamy" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">1121 Creamy Sella Basmati</a>
+                            <a href="/product-details?id=1121-golden" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">1121 Golden Sella Basmati</a>
+                        </div>
+                    </li>
+
+                    <li class="relative group/item">
+                        <div class="flex items-center justify-between px-6 py-3 hover:bg-orange-50 group-hover/item:bg-orange-50 cursor-pointer transition-colors">
+                            <h3 class="text-gray-800 font-medium m-0">Sugar</h3>
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute left-full top-0 w-80 bg-orange-50 shadow-xl 
+    opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-300 
+    transform translate-x-4 group-hover/item:translate-x-0 z-50 p-6 min-h-full">
+                            <a href="/product-details?id=sugar-s30" class="block py-1.5 text-gray-800 hover:translate-x-1 transition-transform">S-30</a>
+                            <a href="/product-details?id=sugar-m30" class="block py-1.5 text-gray-800 hover:translate-x-1 transition-transform">M-30</a>
+                            <a href="/product-details?id=icumsa-45" class="block py-1.5 text-gray-800 hover:translate-x-1 transition-transform">ICUMSA - 45</a>
+                            <a href="/product-details?id=icumsa-600-1200" class="block py-1.5 text-gray-800 hover:translate-x-1 transition-transform">ICUMSA -600-1200 (Raw sugar)</a>
+                        </div>
+                    </li>
+
+                    <li class="relative group/item">
+                        <div class="flex items-center justify-between px-6 py-3 hover:bg-orange-50 group-hover/item:bg-orange-50 cursor-pointer transition-colors">
+                            <h3 class="text-gray-800 font-medium m-0">Lentils & Beans</h3>
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute left-full top-0 w-80 bg-orange-50 shadow-xl opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-300 transform translate-x-4 group-hover/item:translate-x-0 z-50 p-6">
+                            <a href="/product-details?id=green-moong" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Green Moong (Whole & Splits)</a>
+                            <a href="/product-details?id=black-lentils" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Black Lentils (Urad)</a>
+                            <a href="/product-details?id=chana-dal" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Chana Dal (Chickpeas)</a>
+                            <a href="/product-details?id=yellow-peas" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Yellow Split Peas</a>
+                            <a href="/product-details?id=red-lentils" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Red Lentils</a>
+                            <a href="/product-details?id=black-cow-eye" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Black Cow Eye (Whole Chawli)</a>
+                            <a href="/product-details?id=kidney-beans" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Kidney Beans (Rajma)</a>
+                            <a href="/product-details?id=tur-dal" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Tur Dal</a>
+                        </div>
+                    </li>
+
+                    <li class="relative group/item">
+                        <div class="flex items-center justify-between px-6 py-3 hover:bg-orange-50 group-hover/item:bg-orange-50 cursor-pointer transition-colors">
+                            <h3 class="text-gray-800 font-medium m-0">Seeds</h3>
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute left-full top-0 w-80 bg-orange-50 shadow-xl opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-300 transform translate-x-4 group-hover/item:translate-x-0 z-50 p-6 min-h-full">
+                            <a href="/product-details?id=sesame-seed" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Sesame Seed</a>
+                            <a href="/product-details?id=groundnut" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Groundnut</a>
+                        </div>
+                    </li>
+
+                    <li class="relative group/item">
+                        <div class="flex items-center justify-between px-6 py-3 hover:bg-orange-50 group-hover/item:bg-orange-50 cursor-pointer transition-colors">
+                            <h3 class="text-gray-800 font-medium m-0">Spices</h3>
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute left-full top-0 w-80 bg-orange-50 shadow-xl opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-300 transform translate-x-4 group-hover/item:translate-x-0 z-50 p-6">
+                            <a href="/product-details?id=black-pepper" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Black Pepper</a>
+                            <a href="/product-details?id=green-cardamon" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Green Cardamon</a>
+                            <a href="/product-details?id=cloves" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Cloves</a>
+                            <a href="/product-details?id=cinnamon" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Cinnamon</a>
+                            <a href="/product-details?id=nutmeg" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Nutmeg</a>
+                            <a href="/product-details?id=red-dry-chilli" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Red Dry Chilli</a>
+                            <a href="/product-details?id=turmeric" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Turmeric</a>
+                            <a href="/product-details?id=coriander" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Coriander</a>
+                            <a href="/product-details?id=cumin-seed" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Cumin Seed</a>
+                            <a href="/product-details?id=fennel-seed" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Fennel Seed</a>
+                            <a href="/product-details?id=fenugreek-seed" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Fenugreek Seed</a>
+                        </div>
+                    </li>
+
+                    <li class="relative group/item">
+                        <div class="flex items-center justify-between px-6 py-3 hover:bg-orange-50 group-hover/item:bg-orange-50 cursor-pointer transition-colors">
+                            <h3 class="text-gray-800 font-medium m-0">Edible Oils</h3>
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute left-full top-0 w-80 bg-orange-50 shadow-xl opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-300 transform translate-x-4 group-hover/item:translate-x-0 z-50 p-6 min-h-full">
+                            <a href="/product-details?id=palm-oil" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Palm Oil (Crude/Refined)</a>
+                            <a href="/product-details?id=sunflower-oil" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Sunflower Oil</a>
+                            <a href="/product-details?id=sesame-oil" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Sesame Seed Oil</a>
+                            <a href="/product-details?id=coconut-oil" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Coconut Oil</a>
+                            <a href="/product-details?id=mustard-oil" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Mustard Oil</a>
+                            <a href="/product-details?id=groundnut-oil" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Groundnut Oil</a>
+                        </div>
+                    </li>
+
+                    <li class="relative group/item">
+                        <div class="flex items-center justify-between px-6 py-3 hover:bg-orange-50 group-hover/item:bg-orange-50 cursor-pointer transition-colors">
+                            <h3 class="text-gray-800 font-medium m-0">Petrochemicals</h3>
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute left-full top-0 w-80 bg-orange-50 shadow-xl opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-300 transform translate-x-4 group-hover/item:translate-x-0 z-50 p-6 min-h-full">
+                            <a href="/product-details?id=crude-oil" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Crude Oil</a>
+                            <a href="/product-details?id=diesel" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Diesel EN 590</a>
+                            <a href="/product-details?id=gasoline" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Gasoline Oil</a>
+                            <a href="/product-details?id=bitumen" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Bitumen (60/70 & 80/100)</a>
+                            <a href="/product-details?id=polymers" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Polymers (HDPE, LDPE, PVC)</a>
+                            <a href="/product-details?id=pta" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">PTA & MEG</a>
+                        </div>
+                    </li>
+
+                    <li class="relative group/item">
+                        <div class="flex items-center justify-between px-6 py-3 hover:bg-orange-50 group-hover/item:bg-orange-50 cursor-pointer transition-colors">
+                            <h3 class="text-gray-800 font-medium m-0">Ferrous</h3>
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute left-full top-[auto] bottom-0 w-80 bg-orange-50 shadow-xl opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-300 transform translate-x-4 group-hover/item:translate-x-0 z-50 p-6">
+                            <a href="/product-details?id=hms-scrap" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Heavy Metal Scrap (HMS)</a>
+                            <a href="/product-details?id=carbon-steel" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Carbon Steel</a>
+                            <a href="/product-details?id=stainless-steel" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Stainless Steel</a>
+                            <a href="/product-details?id=cast-iron" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Cast Iron</a>
+                            <a href="/product-details?id=alloy-steels" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Alloy Steels</a>
+                            <a href="/product-details?id=rail-track-scrap" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Rail Track Scrap</a>
+                            <a href="/product-details?id=ss-304-316" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">SS 304 / SS 316</a>
+                        </div>
+                    </li>
+
+                    <li class="relative group/item">
+                        <div class="flex items-center justify-between px-6 py-3 hover:bg-orange-50 group-hover/item:bg-orange-50 cursor-pointer transition-colors">
+                            <h3 class="text-gray-800 font-medium m-0">Non-Ferrous</h3>
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute left-full top-[auto] bottom-0 w-80 bg-orange-50 shadow-xl opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-300 transform translate-x-4 group-hover/item:translate-x-0 z-50 p-6">
+                            <a href="/product-details?id=copper" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Copper (Cathode/Wire)</a>
+                            <a href="/product-details?id=aluminum" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Aluminum (Ingot/Scrap)</a>
+                            <a href="/product-details?id=zinc" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Zinc & Zinc Scrap</a>
+                            <a href="/product-details?id=lead" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Lead & Lead Scrap</a>
+                            <a href="/product-details?id=nickel" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Nickel & Nickel Scrap</a>
+                            <a href="/product-details?id=brass" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Brass & Brass Scrap</a>
+                        </div>
+                    </li>
+
+                    <li class="relative group/item">
+                        <div class="flex items-center justify-between px-6 py-3 hover:bg-orange-50 group-hover/item:bg-orange-50 cursor-pointer transition-colors">
+                            <h3 class="text-gray-800 font-medium m-0">Minerals</h3>
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute left-full top-[auto] bottom-0 w-80 bg-orange-50 shadow-xl opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-300 transform translate-x-4 group-hover/item:translate-x-0 z-50 p-6 min-h-full">
+                            <a href="/product-details?id=iron-ore" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Iron Ore</a>
+                            <a href="/product-details?id=copper-ore" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Copper Ore</a>
+                            <a href="/product-details?id=zinc-ore" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Zinc Ore</a>
+                            <a href="/product-details?id=bauxite" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Bauxite Ore</a>
+                        </div>
+                    </li>
+
+                    <li class="relative group/item">
+                        <div class="flex items-center justify-between px-6 py-3 hover:bg-orange-50 group-hover/item:bg-orange-50 cursor-pointer transition-colors">
+                            <h3 class="text-gray-800 font-medium m-0">Coal & Fuel</h3>
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute left-full top-[auto] bottom-0 w-80 bg-orange-50 shadow-xl opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-300 transform translate-x-4 group-hover/item:translate-x-0 z-50 p-6 min-h-full">
+                            <a href="/product-details?id=indo-coal" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Indonesian Coal</a>
+                            <a href="/product-details?id=african-coal" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">African Coal</a>
+                        </div>
+                    </li>
+
+                    <li class="relative group/item">
+                        <div class="flex items-center justify-between px-6 py-3 hover:bg-orange-50 group-hover/item:bg-orange-50 cursor-pointer transition-colors">
+                            <h3 class="text-gray-800 font-medium m-0">Precious</h3>
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute left-full top-[auto] bottom-0 w-80 bg-orange-50 shadow-xl opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-300 transform translate-x-4 group-hover/item:translate-x-0 z-50 p-6 min-h-full">
+                            <a href="/product-details?id=gold" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Gold (Dore bar)</a>
+                            <a href="/product-details?id=silver" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Silver</a>
+                            <a href="/product-details?id=titanium" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Titanium</a>
+                        </div>
+                    </li>
+
+                    <li class="relative group/item">
+                        <div class="flex items-center justify-between px-6 py-3 hover:bg-orange-50 group-hover/item:bg-orange-50 cursor-pointer transition-colors">
+                            <h3 class="text-gray-800 font-medium m-0">Fertilizers</h3>
+                            <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute left-full top-[auto] bottom-0 w-80 bg-orange-50 shadow-xl opacity-0 invisible group-hover/item:opacity-100 group-hover/item:visible transition-all duration-300 transform translate-x-4 group-hover/item:translate-x-0 z-50 p-6 min-h-full">
+                            <a href="/product-details?id=urea" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">UREA</a>
+                            <a href="/product-details?id=dap" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">DAP</a>
+                            <a href="/product-details?id=sulphur" class="block py-1.5 text-gray-800  hover:translate-x-1 transition-transform">Sulphur</a>
+                        </div>
+                    </li>
+
+                </ul>
             </li>
-            <li><a href="/services" class="<?= $page == 'services' ? $activeClass : $defaultClass ?>">Services</a></li>
-            <li><a href="/about" class="<?= $pageTitle == 'about' ? $activeClass : $defaultClass ?>">About</a></li>
-            <li><a href="/blog" class="<?= $pageTitle == 'blog' ? $activeClass : $defaultClass ?>">Blog</a></li>
+
+            <li><a href="#" class="<?= $page == 'our-strength' ? $activeClass : $defaultClass ?>">Our Strength</a></li>
+             <li><a href="/contact" class="<?= $page == 'contact' ? $activeClass : $defaultClass ?>">Contact</a></li>
+            <!-- <li><a href="/about" class="<?= $pageTitle == 'about' ? $activeClass : $defaultClass ?>">About</a></li>
+            <li><a href="/blog" class="<?= $pageTitle == 'blog' ? $activeClass : $defaultClass ?>">Blog</a></li> -->
+
+
         </ul>
 
-        <div class="hidden lg:flex items-center space-x-4">
-            <a href="/contact" class="bg-orange-500 text-white px-6 py-2.5 rounded-full shadow-lg font-bold tracking-wide hover:bg-orange-600 hover:-translate-y-0.5 transition-all duration-300">
+        <div class="">
+            <!-- <a href="/contact" class="bg-orange-500 text-white px-6 py-2.5 rounded-full shadow-lg font-bold tracking-wide hover:bg-orange-600 hover:-translate-y-0.5 transition-all duration-300">
                 Contact Us
-            </a>
+            </a> -->
         </div>
 
         <div class="lg:hidden flex items-center">

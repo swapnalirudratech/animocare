@@ -17,8 +17,8 @@ include 'includes/nav.php';
                 <div>Global Solutions</div>
             </h1>
             <p class="mt-6 text-base text-gray-200 max-md:hidden">
-                At Animocare Private Limited, we specialize in the international trade of food, edible oils, fertilizers, and more.
-                Committed to quality, reliability, and seamless logistics across the globe.
+                At Animocare Private Limited, we specialize in the international trade of food, edible oils, fertilizers,metals and minerals and Petrochemicals and more.
+                Committed to quality, reliability, and seamless Delivery across the globe.
             </p>
             <div class="mt-8">
                 <a href="/about" class="bg-gradient-to-r from-brand to-light text-white px-6 py-3 max-md:px-4 max-md:py-1 rounded-full text-base max-md:text-sm md:font-semibold shadow-lg hover:opacity-90">Read More →</a>
